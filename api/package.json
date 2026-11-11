@@ -14,7 +14,7 @@
     "cors": "^2.8.5",
     "express": "^5.2.1",
     "express-rate-limit": "^8.5.2",
-    "neo4j-driver": "^6.0.1",
+    "neo4j-driver": "^6.3.0",
     "node-cache": "^5.1.2"
   }
 }
