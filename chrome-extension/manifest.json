@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Boyk - Boycott Tracker",
+  "version": "1.0.1",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu7jmdoOYnq7Ic1OqEWJdi6Dovzg73N1/tclbxH8+w4EqTWVuxOU/u1D8HXwdqkPt96KI7sk6Xkn1nV6cAqy+HIXM5VrGsJNpJFZ+JtJrJ7+uARGsRBUNSU/vcL8Zo856ep8N2QTix397aF60JUPYrF3ngoJO/Fi9WmNizlnfW0tfIw0HZOCfb654Hc9pPs+uFyufGwLMciDuvEQzdJocEc2rKhQkMcEOVoiZyP+ovJYGjpipAguLyc7CeUJxOtBuepF7J7QIlPemF7PBPgNdPhnsG1SQ12F0MIczc00nz/XSBB250qVIo2X+LNIj9UVxeu3iQ1cNRS0onpCCA2ejjQIDAQAB",
+  "description": "Get notified when you visit websites of companies you're boycotting",
+  "permissions": ["storage", "tabs", "alarms", "identity"],
+  "host_permissions": ["https://*.supabase.co/*", "https://boyk.org/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["warning.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

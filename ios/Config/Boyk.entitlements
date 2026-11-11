@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:boyk.org</string>
+		<string>applinks:www.boyk.org</string>
+	</array>
+	<!-- Push Notifications. Requires the Push Notifications capability on App ID
+	     org.boyk.app (enabled 2026-08-03).
+
+	     This file is the DEBUG entitlements (see Config/Debug.xcconfig), so it
+	     points at the sandbox APNs environment. Release / Archive builds use
+	     Config/Boyk.Release.entitlements, which carries "production" explicitly
+	     rather than relying on Xcode to substitute it at export time. A
+	     distribution build that ships "development" registers for push but never
+	     receives a notification, which is miserable to debug after the fact. -->
+	<key>aps-environment</key>
+	<string>development</string>
+</dict>
+</plist>

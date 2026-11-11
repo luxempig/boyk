@@ -1,0 +1,271 @@
+/*
+ * Paper preview design — opt-in via ?preview=paper URL param.
+ * Layout/typography port of the design bundle (2026-04-20). Colors come
+ * from the active theme's semantic tokens (--accent, --bg-card, --border,
+ * --text-primary, etc.) so the preview cards match whatever theme variant
+ * (crimson, hellfire, glassmorphism, …) is selected.
+ *
+ * All rules scoped under [data-preview="paper"] so default users see
+ * nothing different.
+ */
+
+/* Paper card — renders in place of BoycottCard and PostCard when preview active.
+   Glass treatment per the design system (glass-card tokens, 14px card radius). */
+[data-preview='paper'] .paper-card {
+  background: var(--glass-card);
+  border: 1px solid var(--glass-card-border);
+  border-radius: var(--radius-card, 14px);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  padding: var(--space-4) var(--space-5);
+  margin-bottom: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+[data-preview='paper'] .paper-card:hover {
+  border-color: var(--border-hover, var(--border));
+}
+
+[data-preview='paper'] .pc-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2-5);
+}
+[data-preview='paper'] .pc-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  background: var(--accent);
+  color: var(--text-on-accent, #fff);
+  font-weight: 800;
+  font-size: 14px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+[data-preview='paper'] .pc-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+[data-preview='paper'] .pc-author {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+[data-preview='paper'] .pc-author-line {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-1-5);
+  font-size: var(--text-base);
+}
+[data-preview='paper'] .pc-author-name {
+  font-weight: var(--font-bold);
+  color: var(--text-primary);
+}
+[data-preview='paper'] .pc-author-handle {
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+[data-preview='paper'] .pc-timestamp {
+  color: var(--text-faint, var(--text-muted));
+  font-size: var(--text-sm);
+}
+[data-preview='paper'] .pc-timestamp::before {
+  content: '·';
+  margin: 0 var(--space-1);
+  color: var(--text-faint, var(--text-muted));
+}
+[data-preview='paper'] .pc-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1-5);
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-full);
+  font-size: var(--text-2xs);
+  font-weight: var(--font-bold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: var(--accent-subtle, var(--bg-elevated));
+  color: var(--accent);
+  border: 1px solid var(--border-accent, var(--accent));
+}
+[data-preview='paper'] .pc-badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: var(--accent);
+}
+
+[data-preview='paper'] .pc-title {
+  /* Design type system is Space Grotesk/Sora — no serif titles. */
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--text-2xl);
+  letter-spacing: -0.015em;
+  line-height: var(--leading-snug);
+  color: var(--text-primary);
+}
+
+[data-preview='paper'] .pc-target {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: var(--bg-elevated);
+  border-radius: var(--radius-md);
+  padding: var(--space-1-5) var(--space-2-5);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  align-self: flex-start;
+}
+[data-preview='paper'] .pc-target strong {
+  color: var(--text-primary);
+  font-weight: var(--font-bold);
+}
+[data-preview='paper'] .pc-target-logo {
+  width: 18px;
+  height: 18px;
+  border-radius: var(--radius-xs);
+  background: var(--bg-card);
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+[data-preview='paper'] .pc-body {
+  font-size: var(--text-md);
+  color: var(--text-secondary);
+  line-height: var(--leading-normal);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+[data-preview='paper'] .pc-media {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--bg-elevated);
+}
+[data-preview='paper'] .pc-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+[data-preview='paper'] .pc-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  padding-top: var(--space-2-5);
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+[data-preview='paper'] .pc-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1-5);
+  transition: color 0.15s ease;
+}
+[data-preview='paper'] .pc-meta-item.active {
+  color: var(--accent);
+  font-weight: var(--font-semibold);
+}
+/* Button variant — used for clickable like/follow on the paper cards. Matches
+   the span look (no chrome, no border, inherits color and font). */
+[data-preview='paper'] button.pc-meta-button {
+  background: none;
+  border: none;
+  padding: var(--space-1) var(--space-1-5);
+  margin: calc(-1 * var(--space-1)) calc(-1 * var(--space-1-5));
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition:
+    color 0.15s ease,
+    background 0.15s ease;
+}
+[data-preview='paper'] button.pc-meta-button:hover:not(:disabled) {
+  color: var(--accent);
+  background: var(--bg-card-hover, transparent);
+}
+[data-preview='paper'] button.pc-meta-button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+[data-preview='paper'] .pc-meta-views {
+  margin-left: auto;
+  color: var(--text-faint, var(--text-muted));
+  font-size: var(--text-xs2);
+  font-family: var(--font-mono, 'JetBrains Mono', 'SF Mono', Menlo, monospace);
+}
+
+[data-preview='paper'] .pc-comments {
+  border-top: 1px dashed var(--border);
+  padding-top: var(--space-2-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2-5);
+}
+[data-preview='paper'] .pc-comment {
+  display: flex;
+  gap: var(--space-2-5);
+}
+[data-preview='paper'] .pc-comment-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--radius-full);
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  font-weight: var(--font-bold);
+  font-size: var(--text-xs2);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+[data-preview='paper'] .pc-comment-label-correction {
+  display: inline-block;
+  background: var(--success-wash, transparent);
+  color: var(--success);
+  border: 1px solid var(--success);
+  padding: 0 var(--space-2);
+  font-size: var(--text-2xs);
+  font-weight: var(--font-bold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: var(--radius-xs);
+  height: 18px;
+  line-height: 18px;
+}
+[data-preview='paper'] .pc-comment-label-alternative {
+  display: inline-block;
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 0 var(--space-2);
+  font-size: var(--text-2xs);
+  font-weight: var(--font-bold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: var(--radius-xs);
+  height: 18px;
+  line-height: 18px;
+  font-style: italic;
+}
+[data-preview='paper'] .pc-comment-body {
+  font-size: var(--text-base);
+  color: var(--text-primary);
+}
+[data-preview='paper'] .pc-comment-body.alt {
+  font-style: italic;
+}
+[data-preview='paper'] .pc-comments-more {
+  font-size: var(--text-sm);
+  color: var(--accent);
+  font-weight: var(--font-semibold);
+  text-decoration: none;
+}

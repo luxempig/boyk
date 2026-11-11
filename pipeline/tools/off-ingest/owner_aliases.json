@@ -1,0 +1,1575 @@
+[
+ {
+  "owner": "Raley's",
+  "company_id": "Q7286970",
+  "company_name": "Raley's Supermarkets",
+  "evidence": "https://www.wikidata.org/wiki/Q7286970",
+  "note": "Retailer's own entity; RALEY'S and NOB HILL TRADING CO. are Raley's store brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "RALEY'S",
+  "company_id": "Q7286970",
+  "company_name": "Raley's Supermarkets",
+  "evidence": "https://www.wikidata.org/wiki/Q7286970",
+  "note": "Retailer's own entity; RALEY'S and NOB HILL TRADING CO. are Raley's store brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Kraft Heinz Foods Company",
+  "company_id": "9845007488EC87F5AF14",
+  "company_name": "Kraft Heinz",
+  "evidence": "https://en.wikipedia.org/wiki/Kraft_Heinz",
+  "note": "Main US operating subsidiary of The Kraft Heinz Company; planned two-way split paused Feb 2026, not completed",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Glencourt Inc.",
+  "company_id": "Q2831861",
+  "company_name": "Albertsons",
+  "evidence": "https://www.sec.gov/Archives/edgar/data/945800/000119312517176856/d377366dex3129.htm",
+  "note": "Glencourt, Inc. is a Safeway (now Albertsons Companies) subsidiary, co-registrant in Albertsons Companies 2017 S-4; O ORGANICS/OPEN NATURE/SIGNATURE SELECT are Albertsons brands. Note graph parent edges on Albertsons node (SuperValu/Cerberus) look stale",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Big Y Foods, Inc.",
+  "company_id": "5493005BYNGY4MLU8T76",
+  "company_name": "Big Y World Class Market",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/5493005BYNGY4MLU8T76",
+  "note": "Graph node LEI is BIG Y FOODS, INC., Springfield MA; BIG Y is its store brand",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "CAMPBELL SOUP COMPANY",
+  "company_id": "5493007JDSMX8Z5Z1902",
+  "company_name": "Campbell's",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/5493007JDSMX8Z5Z1902",
+  "note": "GLEIF: THE CAMPBELL'S COMPANY, other name CAMPBELL SOUP COMPANY (renamed); V8/SWANSON/PACIFIC FOODS are Campbell's brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Campbell Soup Company",
+  "company_id": "5493007JDSMX8Z5Z1902",
+  "company_name": "Campbell's",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/5493007JDSMX8Z5Z1902",
+  "note": "GLEIF: THE CAMPBELL'S COMPANY, other name CAMPBELL SOUP COMPANY (renamed); V8/SWANSON/PACIFIC FOODS are Campbell's brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "H E Butt Grocery Company",
+  "company_id": "Q830621",
+  "company_name": "H-E-B",
+  "evidence": "https://www.wikidata.org/wiki/Q830621",
+  "note": "H E Butt Grocery Company is H-E-B's legal name; HILL COUNTRY FARE etc. are H-E-B store brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Hormel Foods Corporation",
+  "company_id": "MSD54751OJP1FS2ND863",
+  "company_name": "Hormel",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/MSD54751OJP1FS2ND863",
+  "note": "Exact legal name match (GLEIF HORMEL FOODS CORPORATION)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Pepsi-Cola North America Inc.",
+  "company_id": "FJSUNZKFNQ5YPJ5OT455",
+  "company_name": "PepsiCo",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/FJSUNZKFNQ5YPJ5OT455",
+  "note": "Pepsi-Cola North America is PepsiCo's beverage division; PEPSI/MTN DEW/BUBLY are PepsiCo brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "BJ's Wholesale Club / Corporate Brands",
+  "company_id": "549300H2XDOGOSR9L398",
+  "company_name": "BJ's Wholesale Club",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/549300H2XDOGOSR9L398",
+  "note": "Retailer's own corporate-brands division; WELLSLEY FARMS/BERKLEY JENSEN are BJ's brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Clif Bar and Company",
+  "company_id": "549300DVBNLU88BU8V31",
+  "company_name": "Clif Bar",
+  "evidence": "https://en.wikipedia.org/wiki/Clif_Bar",
+  "note": "Same entity (GLEIF CLIF BAR & COMPANY). Acquired by Mondelez (549300DV9GIB88LZ5P30), deal announced June 2022 and closed Aug 1, 2022; graph shows no parent edge",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "B&G Foods North America, Inc.",
+  "company_id": "549300TRW1LZMDJZAQ78",
+  "company_name": "B&G Foods",
+  "evidence": "https://en.wikipedia.org/wiki/B%26G_Foods",
+  "note": "Operating sub of B&G Foods, Inc. NOTE: some FDC rows carry stale brands B&G divested (PIRATE'S BOOTY/SMART PUFFS/TINGS -> Hershey 2018), so brand-level overrides advisable",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Lindt & Sprungli (Schweiz) AG",
+  "company_id": "529900JYJNNOKKAGK736",
+  "company_name": "Lindt & Sprüngli",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/529900JYJNNOKKAGK736",
+  "note": "Swiss operating sub of Chocoladefabriken Lindt & Sprüngli AG (the graph node)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Mars Chocolate North America LLC",
+  "company_id": "54930073HKEO6GZBSS03",
+  "company_name": "Mars, Incorporated",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/54930073HKEO6GZBSS03",
+  "note": "Wholly-owned Mars confectionery sub; DOVE/MILKY WAY/SKITTLES/COMBOS are Mars brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Jennie-O Turkey Store, Inc.",
+  "company_id": "Q6177935",
+  "company_name": "Jennie-O",
+  "evidence": "https://www.wikidata.org/wiki/Q6177935",
+  "note": "Jennie-O Turkey Store is Hormel's turkey subsidiary; graph has Jennie-O node with Hormel parent edge. HY-VEE/FESTIVE are private-label packs it supplies",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Publix Super Markets, Inc.",
+  "company_id": "Q672170",
+  "company_name": "Publix",
+  "evidence": "https://www.wikidata.org/wiki/Q672170",
+  "note": "Retailer's own entity; GreenWise/Publix Deli are Publix store brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "PUBLIX SUPER MARKETS, INC.",
+  "company_id": "Q672170",
+  "company_name": "Publix",
+  "evidence": "https://www.wikidata.org/wiki/Q672170",
+  "note": "spelling variant of Publix Super Markets, Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "KIND Inc.",
+  "company_id": "54930073HKEO6GZBSS03",
+  "company_name": "Mars, Incorporated",
+  "evidence": "https://www.fooddive.com/news/mars-buys-kind-north-america/589209/",
+  "note": "Mars acquired full ownership of KIND North America (announced/closed Nov 2020); no KIND node in graph",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "KIND",
+  "company_id": "54930073HKEO6GZBSS03",
+  "company_name": "Mars, Incorporated",
+  "evidence": "https://www.fooddive.com/news/mars-buys-kind-north-america/589209/",
+  "note": "spelling variant of KIND Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Smithfield Packaged Meats Corp.",
+  "company_id": "CVTIPZRZJC0JQEZLL598",
+  "company_name": "Smithfield Foods",
+  "evidence": "https://en.wikipedia.org/wiki/Smithfield_Foods",
+  "note": "Packaged-meats operating subsidiary; Armour, John Morrell, Kretschmar, Patrick Cudahy are Smithfield brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Saputo Cheese USA Inc.",
+  "company_id": "Q1352708",
+  "company_name": "Saputo",
+  "evidence": "https://search.gleif.org/#/record/549300MHN1EF686KU092",
+  "note": "GLEIF: direct and ultimate parent Saputo Inc.; Q1352708 = Saputo, Canadian dairy company",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "SAPUTO CHEESE USA INC.",
+  "company_id": "Q1352708",
+  "company_name": "Saputo",
+  "evidence": "https://search.gleif.org/#/record/549300MHN1EF686KU092",
+  "note": "spelling variant of Saputo Cheese USA Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Ocean Spray Cranberries, Inc.",
+  "company_id": "Q3348672",
+  "company_name": "Ocean Spray",
+  "evidence": "https://www.wikidata.org/wiki/Q3348672",
+  "note": "Same entity (grower cooperative; GLEIF F58I6BK23LKYT8F1SB71). Member's Mark items are Sam's Club co-brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "OCEAN SPRAY CRANBERRIES, INC.",
+  "company_id": "Q3348672",
+  "company_name": "Ocean Spray",
+  "evidence": "https://www.wikidata.org/wiki/Q3348672",
+  "note": "spelling variant of Ocean Spray Cranberries, Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Turkey Hill Dairy Inc.",
+  "company_id": "Q7855073",
+  "company_name": "Turkey Hill",
+  "evidence": "https://en.wikipedia.org/wiki/Turkey_Hill_Dairy",
+  "note": "Q7855073 is the dairy/beverage company (not Turkey Hill Minit Markets Q42376970). Sold by Kroger to Peak Rock Capital 2019",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Dr. Pepper/Seven Up, Inc.",
+  "company_id": "Q3116111",
+  "company_name": "Keurig Dr Pepper",
+  "evidence": "https://en.wikipedia.org/wiki/Dr_Pepper/Seven_Up",
+  "note": "Legacy operating entity within Keurig Dr Pepper (since 2018 merger); Canada Dry, Crush, A&W are KDP brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Milton G. Waldbaum Company",
+  "company_id": "JM1I5YUAURL6DC8N1468",
+  "company_name": "Post Holdings",
+  "evidence": "https://www.sec.gov/Archives/edgar/data/1278679/000119312505063317/dex211.htm",
+  "note": "M.G. Waldbaum Co. is a Michael Foods subsidiary (Michael Foods exhibit 21); Michael Foods owned by Post Holdings since 2014 (michaelfoods.com/about-us/history). Crystal Farms/Simply Potatoes are Michael Foods brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Kings Super Markets Inc",
+  "company_id": "Q2831861",
+  "company_name": "Albertsons",
+  "evidence": "https://en.wikipedia.org/wiki/Kings_Food_Markets",
+  "note": "Albertsons won Kings/Balducci's bankruptcy auction Oct 2020 ($96M), owner since 2021; KINGS is the chain's store brand",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Sam's Club West",
+  "company_id": "Q1972120",
+  "company_name": "Sam's Club",
+  "evidence": "https://en.wikipedia.org/wiki/Sam%27s_Club",
+  "note": "Sam's West, Inc. is the Walmart operating entity for Sam's Club; Member's Mark is Sam's Club's private label",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Small Planet Foods, Inc.",
+  "company_id": "2TGYMUGI08PO8X8L6150",
+  "company_name": "General Mills",
+  "evidence": "https://en.wikipedia.org/wiki/Cascadian_Farm",
+  "note": "Small Planet Foods (Cascadian Farm) was bought by General Mills and is its natural/organic subsidiary; Larabar, Food Should Taste Good are GM brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Seaboard Foods LLC",
+  "company_id": "87Q3KOXT29OW9W9YPT70",
+  "company_name": "Seaboard Corporation",
+  "evidence": "https://www.sec.gov/Archives/edgar/data/88121/000008812125000017/seb-20241231x10k.htm",
+  "note": "10-K: 'Seaboard, through its subsidiary Seaboard Foods LLC'; Prairie Fresh is its trademark",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Seaboard Foods",
+  "company_id": "87Q3KOXT29OW9W9YPT70",
+  "company_name": "Seaboard Corporation",
+  "evidence": "https://www.sec.gov/Archives/edgar/data/88121/000008812125000017/seb-20241231x10k.htm",
+  "note": "spelling variant of Seaboard Foods LLC",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Coca-Cola USA Operations",
+  "company_id": "UWJKFUJFZ02DKWI3RY53",
+  "company_name": "The Coca-Cola Company",
+  "evidence": "https://en.wikipedia.org/wiki/The_Coca-Cola_Company",
+  "note": "US operating division of The Coca-Cola Company; Powerade, Sprite, Diet Coke, Gold Peak are TCCC brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "JFC International Inc.",
+  "company_id": "529900T9K5UH9HXOND47",
+  "company_name": "Kikkoman",
+  "evidence": "https://en.wikipedia.org/wiki/JFC_International",
+  "note": "JFC International is owned by Kikkoman; brands Nishiki, Dynasty, JFC, Wel-Pac, Hapi",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "JFC INTERNATIONAL",
+  "company_id": "529900T9K5UH9HXOND47",
+  "company_name": "Kikkoman",
+  "evidence": "https://en.wikipedia.org/wiki/JFC_International",
+  "note": "spelling variant of JFC International Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Smithfield Farmland Corp.",
+  "company_id": "CVTIPZRZJC0JQEZLL598",
+  "company_name": "Smithfield Foods",
+  "evidence": "https://www.sec.gov/Archives/edgar/data/0000091388/000009138815000026/active_66043637x1xexhibit1.htm",
+  "note": "Smithfield Farmland Corp. (ex-Smithfield Packing; Farmland Foods merged in 2014) is Smithfield Foods' operating subsidiary; brands Smithfield/Farmland/Gwaltney/Eskay are Smithfield's.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Tasty Baking Company",
+  "company_id": "7YNCQQNDK8FBM9BBTK25",
+  "company_name": "Flowers Foods",
+  "evidence": "https://www.sec.gov/Archives/edgar/data/0001128928/000119312511305515/d233520d10q.htm",
+  "note": "Flowers Foods acquired Tasty Baking Co. on 2011-05-20 (wholly owned). Reported 2026 sale process for Tastykake (RBC) - no deal announced as of Flowers' 10-Q for quarter ended 2026-07-18; re-check later.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Mott's LLP",
+  "company_id": "Q3116111",
+  "company_name": "Keurig Dr Pepper",
+  "evidence": "https://search.gleif.org/#/record/BPWCWKQX7DPHGWQJRL49",
+  "note": "GLEIF: Mott's LLP ultimate parent = Keurig Dr Pepper Inc. (DYTQ8KRTKO7Y2BVU5K74). Note graph also has node DYTQ8KRTKO7Y2BVU5K74 labeled 'Dr Pepper Snapple Group' (same legal entity) - duplicate to merge.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "MOTT'S",
+  "company_id": "Q3116111",
+  "company_name": "Keurig Dr Pepper",
+  "evidence": "https://search.gleif.org/#/record/BPWCWKQX7DPHGWQJRL49",
+  "note": "Spelling variant of Mott's LLP",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Monster Energy Company",
+  "company_id": "52990090AP0E7HCB6F33",
+  "company_name": "Monster Beverage",
+  "evidence": "https://search.gleif.org/#/record/549300OURT0DNCONN173",
+  "note": "GLEIF: Monster Energy Company ultimate parent = Monster Beverage Corporation (52990090AP0E7HCB6F33).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Dreyer's Grand Ice Cream Inc.",
+  "company_id": "Q7273233",
+  "company_name": "Froneri",
+  "evidence": "https://www.paipartners.com/mediaitem/pai-partners-backed-froneri-announces-acquisition-of-nestles-us-ice-cream-business-for-4-0-billion/",
+  "note": "Froneri acquired Dreyer's Grand Ice Cream Holdings (Nestle US ice cream) - completed January 2020. TOLL HOUSE / DISNEY are licensed.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Conagra Frozen Foods",
+  "company_id": "54930035UDEIH090K650",
+  "company_name": "Conagra Brands, Inc.",
+  "evidence": "https://en.wikipedia.org/wiki/Banquet_Foods",
+  "note": "Conagra's frozen-foods division (Banquet, Kid Cuisine, Patio)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Zatarain's Inc.",
+  "company_id": "549300JQQA6MQ4OJP259",
+  "company_name": "McCormick & Company",
+  "evidence": "https://en.wikipedia.org/wiki/Zatarain%27s",
+  "note": "McCormick has owned Zatarain's since 2003-05-09",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Relish Labs LLC",
+  "company_id": "6CPEOKI6OYJ13Q6O7870",
+  "company_name": "Kroger",
+  "evidence": "https://en.wikipedia.org/wiki/Home_Chef",
+  "note": "Relish Labs LLC d/b/a Home Chef has been a wholly owned Kroger subsidiary since the deal closed in June 2018",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "AdvancePierre Foods Inc.",
+  "company_id": "WD6L6041MNRW1JE49D58",
+  "company_name": "Tyson Foods",
+  "evidence": "https://www.tysonfoods.com/news/news-releases/2017/6/tyson-foods-successfully-completes-acquisition-advancepierre",
+  "note": "Tyson acquired 100% on 2017-06-07",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Shullsburg Creamery II, LLC",
+  "company_id": "Q7237864",
+  "company_name": "Prairie Farms Dairy",
+  "evidence": "https://shullsburgcreamery.com/tradition-quality/history",
+  "note": "Prairie Farms Dairy acquired Shullsburg Creamery in 2020",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Ben & Jerry's Homemade Inc.",
+  "company_id": "Q816412",
+  "company_name": "Ben & Jerry's",
+  "evidence": "https://www.wikidata.org/wiki/Q816412",
+  "note": "Graph node already has parent The Magnum Ice Cream Company",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Ready Pac Produce, Inc.",
+  "company_id": "969500QVHHN3NNVYRE94",
+  "company_name": "Bonduelle",
+  "evidence": "https://www.fruitnet.com/eurofruit/bonduelle-completes-ready-pac-deal/171721.article",
+  "note": "Bonduelle bought 100% of Ready Pac in 2017; no divestiture found",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Chicago Bar Company",
+  "company_id": "Q48970184",
+  "company_name": "Rxbar",
+  "evidence": "https://www.marketscreener.com/news/kellanova-mars-completes-acquisition-of-kellanova-dec-11-2025-ce7d50dbd88df123",
+  "note": "Chicago Bar Company LLC is RXBAR's operating company (Kellanova sub). Note: Kellanova node lacks parent edge to Mars, Incorporated (54930073HKEO6GZBSS03); Mars closed acquisition Dec 11, 2025.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Unilever Bestfoods North America",
+  "company_id": "549300MKFYEKVRWML317",
+  "company_name": "Unilever",
+  "evidence": "https://www.wikidata.org/wiki/Q16532401",
+  "note": "Bestfoods acquired by Unilever 2000; Hellmann's/Best Foods are Unilever brands. (Unilever (United States) Q28971005 also possible.)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Oberto Sausage Company",
+  "company_id": "529900F5EXPGUY8WV366",
+  "company_name": "Premium Brands Holdings Corporation",
+  "evidence": "https://en.wikipedia.org/wiki/Oberto_Snacks_Inc.",
+  "note": "Oberto Sausage Co. renamed Oberto Snacks Inc. after 2018 acquisition by Premium Brands Holdings; wholly owned subsidiary.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Sabra Dipping Company LLC",
+  "company_id": "Q7396323",
+  "company_name": "Sabra",
+  "evidence": "https://www.foodnavigator.com/Article/2024/11/25/pepsico-acquires-sabra-obela-from-strauss-group/",
+  "note": "Sabra Dipping Co. node exists. PepsiCo bought Strauss 50% (announced Nov 2024, expected close end 2024; closing not separately verified) - node still shows Strauss as co-parent; should be PepsiCo only.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Storck USA LP",
+  "company_id": "Q566814",
+  "company_name": "August Storck KG",
+  "evidence": "https://www.storck.us/en/company/storck-united-states",
+  "note": "Storck USA L.P. is the US subsidiary of August Storck KG (Werther's, Merci, Riesen).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "ThinkThin, LLC",
+  "company_id": "Q5566596",
+  "company_name": "Glanbia",
+  "evidence": "https://www.prnewswire.com/news-releases/founder-lizanne-falsetto-and-tsg-consumer-partners-complete-sale-of-thinkthin-to-glanbia-plc-for-217-m-300193617.html",
+  "note": "thinkThin LLC acquired by Glanbia plc Dec 2015; no later divestment found.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "THINKTHIN",
+  "company_id": "Q5566596",
+  "company_name": "Glanbia",
+  "evidence": "https://www.prnewswire.com/news-releases/founder-lizanne-falsetto-and-tsg-consumer-partners-complete-sale-of-thinkthin-to-glanbia-plc-for-217-m-300193617.html",
+  "note": "extra spelling of same entity; thinkThin LLC acquired by Glanbia plc Dec 2015; no later divestment found.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "The Hvr Company",
+  "company_id": "54930044KVSC06Z79I06",
+  "company_name": "Clorox",
+  "evidence": "https://investors.thecloroxcompany.com/news/news-details/2017/Hidden-Valley-Launches-Ranch-Out-Campaign-To-Inspire-America-To-Get-Inventive-With-Ranch/default.aspx",
+  "note": "HVR Co. / HV Food Products is the Clorox subsidiary owning Hidden Valley, Kitchen Bouquet, Soy Vay. (GOOD & GATHER items are Target private label co-packed.)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "MARKET PANTRY",
+  "company_id": "8WDDFXB5T1Z6J0XC1L66",
+  "company_name": "Target Corporation",
+  "evidence": "https://www.foodrepublic.com/1314560/target-three-in-store-grocery-brands-explained/",
+  "note": "MARKET PANTRY is Target's owned grocery brand (owner field holds the brand name).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Fannie May Confections, Inc.",
+  "company_id": "Q5433964",
+  "company_name": "Fannie May",
+  "evidence": "https://www.sec.gov/Archives/edgar/data/0001084869/000143774917010623/ex99-1.htm",
+  "note": "1-800-Flowers sold Fannie May Confections to Ferrero May 30, 2017; node parent = Ferrero SpA.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "ARCHER FARMS",
+  "company_id": "8WDDFXB5T1Z6J0XC1L66",
+  "company_name": "Target Corporation",
+  "evidence": "https://www.startribune.com/target-to-replace-archer-farms-simply-balanced-with-new-flagship-food-brand/553776162",
+  "note": "ARCHER FARMS is Target's own store brand (owner field holds the brand name).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "REESE'S",
+  "company_id": "21X2CX66SU2BR6QTAD08",
+  "company_name": "The Hershey Company",
+  "evidence": "https://www.wikidata.org/wiki/Q2136612",
+  "note": "REESE'S is a Hershey brand (owner field holds the brand name). Caveat: licensed Reese's items (e.g. cereal) could carry this string.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Wegmans Food Markets, Inc.",
+  "company_id": "Q11288478",
+  "evidence": "https://en.wikipedia.org/wiki/Wegmans",
+  "note": "Retailer's own entity for WEGMANS store brand; family-owned via Wegman Enterprises; no LEI found",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Wegmans Food Markets",
+  "company_id": "Q11288478",
+  "evidence": "https://en.wikipedia.org/wiki/Wegmans",
+  "note": "Retailer's own entity for WEGMANS store brand; family-owned via Wegman Enterprises; no LEI found",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "WEGMANS FOOD MARKETS INC",
+  "company_id": "Q11288478",
+  "evidence": "https://en.wikipedia.org/wiki/Wegmans",
+  "note": "Retailer's own entity for WEGMANS store brand; family-owned via Wegman Enterprises; no LEI found",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Schnuck Markets, Inc.",
+  "company_id": "Q7431920",
+  "evidence": "https://en.wikipedia.org/wiki/Schnucks",
+  "note": "Retailer's own entity for SCHNUCKS/CULINARIA store brands; Schnuck family-owned; no LEI found",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Smart & Final Iris Corporation",
+  "company_id": "Q7543916",
+  "evidence": "https://www.businesswire.com/news/home/20210513006094/en/Grupo-Comercial-Chedraui-Announces-the-Acquisition-of-Smart-Final",
+  "note": "Historic legal name of the Smart & Final retailer (Thriftimart renamed 1984); FIRST STREET/SUN HARVEST are its store brands. Chedraui acquisition announced 2021-05-13 (closed 2021); Chedraui (LEI 4469000001BRXSV0JO96) not in graph. Current-entity LEIs exist (Smart & Final LLC 549300Q0IB6ZYRS2RR87) but not assigned since name differs",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Stater Bros. Markets Inc.",
+  "company_id": "549300CFV24B2BZMY111",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/549300CFV24B2BZMY111",
+  "note": "Retailer's own entity for STATER BROS. store brand",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "STATER BROS. MARKETS",
+  "company_id": "549300CFV24B2BZMY111",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/549300CFV24B2BZMY111",
+  "note": "Retailer's own entity for STATER BROS. store brand",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Beaver Street Fisheries Inc.",
+  "company_id": "Q139586885",
+  "evidence": "https://www.wikidata.org/wiki/Q139586885",
+  "note": "Jacksonville FL seafood/meat processor (now 'BSF'); owns SEA BEST. Also distributes others' products (small HORMEL/IBP/PERFORMANCE counts) - exclude those brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "BEAVER STREET FISHERIES, INC.",
+  "company_id": "Q139586885",
+  "evidence": "https://www.wikidata.org/wiki/Q139586885",
+  "note": "Jacksonville FL seafood/meat processor (now 'BSF'); owns SEA BEST. Also distributes others' products (small HORMEL/IBP/PERFORMANCE counts) - exclude those brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Beaver Street Fisheries",
+  "company_id": "Q139586885",
+  "evidence": "https://www.wikidata.org/wiki/Q139586885",
+  "note": "Jacksonville FL seafood/meat processor (now 'BSF'); owns SEA BEST. Also distributes others' products (small HORMEL/IBP/PERFORMANCE counts) - exclude those brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "The Moran Group Incorporated",
+  "company_id": "Q7427972",
+  "evidence": "https://trademarks.justia.com/781/50/coburn-78150328.html",
+  "note": "COBURN FARMS trademark owned by Moran Foods, LLC (Save A Lot), and TIPTON GROVE is a named Moran private label (Save A Lot wiki/court records); 'The Moran Group Incorporated' assumed to be the same Moran/Save A Lot group - exact legal tie not verified. Owned by institutional investors since 2020 recapitalization",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Kingston Marketing Co",
+  "company_id": "5493007RHO8JPJMZQ771",
+  "evidence": "https://trademarks.justia.com/868/82/culinary-86882758.html",
+  "note": "All brands (VALU TIME, CULINARY TOURS, SWEET P'S, OVER THE TOP, WIDE AWAKE COFFEE, WORLD CLASSICS) are Topco trademarks; Kingston Marketing Co is listed at 7711 Gross Point Rd, Skokie = Topco's former HQ, i.e. a Topco affiliate. Topco is a member-owned cooperative",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "UTZ Quality Foods, LLC",
+  "company_id": "549300K2HU2ISL0R2Q75",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/549300K2HU2ISL0R2Q75",
+  "note": "Operating sub of Utz Brands (NYSE: UTZ, not in graph); UTZ/GOLDEN FLAKE/ZAPP'S/BOULDER CANYON/BACHMAN are Utz brands (TGI FRIDAYS is licensed). GLEIF lists 'UTZ QUALITY FOODS, INC.' as other name",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "UTZ Quality Foods, Inc.",
+  "company_id": "549300K2HU2ISL0R2Q75",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/549300K2HU2ISL0R2Q75",
+  "note": "Operating sub of Utz Brands (NYSE: UTZ, not in graph); UTZ/GOLDEN FLAKE/ZAPP'S/BOULDER CANYON/BACHMAN are Utz brands (TGI FRIDAYS is licensed). GLEIF lists 'UTZ QUALITY FOODS, INC.' as other name",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Taylor Fresh Foods, Inc.",
+  "company_id": "549300Y1KH4875EX4603",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/549300Y1KH4875EX4603",
+  "note": "Taylor Farms parent; TAYLOR FARMS + EARTHBOUND FARM (acquired 2019) are its brands. ~140 rows are co-packed BOAR'S HEAD / WHOLE FOODS MARKET - exclude those brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Wilton Industries Inc.",
+  "company_id": "Q126726162",
+  "evidence": "https://www.hfndigital.com/industry-news/german-food-and-beverage-company-acquires-wilton-brands/",
+  "note": "Wilton Industries (GLEIF RRQB5HCNL2PRBUFN4C29, lapsed) is the predecessor of Wilton Brands LLC; acquired by Dr. Oetker, deal Sept 2018. 1,664/1,860 rows are WILTON; few licensed DISNEY items",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Lowe's Food Stores, Inc.",
+  "company_id": "Q6693991",
+  "evidence": "https://en.wikipedia.org/wiki/Lowes_Foods",
+  "note": "Retailer's own entity for LOWES FOODS store brands; subsidiary of Alex Lee, Inc. (not in graph)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Rouse's Enterprises, Inc.",
+  "company_id": "549300PD0M1U12UVKQ47",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/549300PD0M1U12UVKQ47",
+  "note": "Retailer's own entity (Rouses Markets, Thibodaux LA) for ROUSES store brand; family-owned",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Bob's Red Mill Natural Foods, Inc.",
+  "company_id": "5493003IGNDVBHLGPZ06",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/5493003IGNDVBHLGPZ06",
+  "note": "Exact legal name; employee-owned (ESOP), no corporate parent",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "BOB'S RED MILL NATURAL FOODS INC",
+  "company_id": "5493003IGNDVBHLGPZ06",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/5493003IGNDVBHLGPZ06",
+  "note": "Exact legal name; employee-owned (ESOP), no corporate parent",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Bob's Red Mill® Natural Foods Inc.",
+  "company_id": "5493003IGNDVBHLGPZ06",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/5493003IGNDVBHLGPZ06",
+  "note": "Exact legal name; employee-owned (ESOP), no corporate parent",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Lunds Inc",
+  "company_id": "Q6704067",
+  "evidence": "https://en.wikipedia.org/wiki/Lunds_%26_Byerlys",
+  "note": "'Lunds Inc' is the operating entity of Lund Food Holdings (Lunds & Byerlys, Edina MN); LUNDS & BYERLYS is its store brand; privately held; no LEI found",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Frankford Candy, LLC",
+  "company_id": "549300KAC63YCUQL9P30",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/549300KAC63YCUQL9P30",
+  "note": "Philadelphia candy maker; FRANKFORD is its own brand (886/2,090 rows); NICKELODEON/DISNEY/MARVEL/WELCH'S are licensed - consider excluding licensed brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "George DeLallo Co., Inc.",
+  "company_id": "549300LW3UYCN0K0JR13",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/549300LW3UYCN0K0JR13",
+  "note": "Family-owned Italian specialty foods company (Jeannette PA); DELALLO is its brand",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Fareway Stores, Inc.",
+  "company_id": "Q5434998",
+  "evidence": "https://en.wikipedia.org/wiki/Fareway",
+  "note": "Retailer's own entity for FAREWAY store brand; Beckwith family-owned; no LEI found",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "T. Marzetti Company",
+  "company_id": "Q7668516",
+  "evidence": "https://www.marzetticompany.com/news/specialty-food-maker-lancaster-colony-rebrands-as-the-marzetti-company/",
+  "note": "Operating sub of The Marzetti Company (Lancaster Colony renamed 2025-06-27, not in graph); MARZETTI/ANGELIC BAKEHOUSE/FLATOUT/NEW YORK BAKERY are its brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "T. MARZETTI COMPANY",
+  "company_id": "Q7668516",
+  "evidence": "https://www.marzetticompany.com/news/specialty-food-maker-lancaster-colony-rebrands-as-the-marzetti-company/",
+  "note": "Operating sub of The Marzetti Company (Lancaster Colony renamed 2025-06-27, not in graph); MARZETTI/ANGELIC BAKEHOUSE/FLATOUT/NEW YORK BAKERY are its brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Key Food Stores Co-Operative, Inc.",
+  "company_id": "549300ZV230XWD6K3D85",
+  "evidence": "https://api.gleif.org/api/v1/lei-records/549300ZV230XWD6K3D85",
+  "note": "Retailer-owned co-op; KEY FOOD/URBAN MEADOW are its store brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Bush Brothers & Company",
+  "company_id": "Q208997",
+  "evidence": "https://en.wikipedia.org/wiki/Bush_Brothers_and_Company",
+  "note": "Family-owned, Knoxville TN; Bush's Best and Showboat are its brands; no LEI found",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Stonewall Kitchen Ltd.",
+  "company_id": "54930045GD4243SL2X98",
+  "evidence": "https://en.wikipedia.org/wiki/Stonewall_Kitchen",
+  "note": "York ME; TA Associates acquired 2022-03-14; Tillen Farms, Urban Accents, Napa Valley Naturals, Montebello are its brands. GLEIF LEI status LAPSED",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Stonewall Kitchen, LLC",
+  "company_id": "54930045GD4243SL2X98",
+  "evidence": "https://en.wikipedia.org/wiki/Stonewall_Kitchen",
+  "note": "spelling variant of Stonewall Kitchen Ltd.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Herr Foods Inc.",
+  "company_id": "5493007I5YSBJMAC2H73",
+  "evidence": "https://en.wikipedia.org/wiki/Herr%27s",
+  "note": "Private family-owned snack maker, Nottingham PA (legal name Herr Foods Inc.); LEI lapsed",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Red Gold, Inc.",
+  "company_id": "549300C1XLQOSIHNDW70",
+  "evidence": "https://search.gleif.org/#/record/549300C1XLQOSIHNDW70",
+  "note": "Private tomato processor, Elwood IN; Redpack and Tuttorosso are its brands (Clover Valley is Dollar General private label it packs)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Red Gold Inc.",
+  "company_id": "549300C1XLQOSIHNDW70",
+  "evidence": "https://search.gleif.org/#/record/549300C1XLQOSIHNDW70",
+  "note": "spelling variant of Red Gold, Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Red Gold",
+  "company_id": "549300C1XLQOSIHNDW70",
+  "evidence": "https://search.gleif.org/#/record/549300C1XLQOSIHNDW70",
+  "note": "spelling variant of Red Gold, Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "John B. Sanfilippo & Son, Inc.",
+  "company_id": "5299007IBEYVXKYDUX28",
+  "evidence": "https://search.gleif.org/#/record/5299007IBEYVXKYDUX28",
+  "note": "Public nut processor (Elgin IL), owner of Fisher, Orchard Valley Harvest, Squirrel Brand; QID not found",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "JOHN B SANFILIPPO &SON. INC.",
+  "company_id": "5299007IBEYVXKYDUX28",
+  "evidence": "https://search.gleif.org/#/record/5299007IBEYVXKYDUX28",
+  "note": "spelling variant of John B. Sanfilippo & Son, Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Wm. Bolthouse Farms Inc.",
+  "company_id": "254900AVSAWDJLMUWV53",
+  "evidence": "https://en.wikipedia.org/wiki/Bolthouse_Farms",
+  "note": "Butterfly Equity (Q117388381, not in graph) owns since 2019; GLEIF still shows stale Campbell's parent. May-2024 split: beverages/dressings now Generous Brands (also Butterfly). Garden Fresh Gourmet was sold separately in 2019 - older barcodes",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Lehi Valley Trading Company, Inc.",
+  "company_id": "25490093J68CK8JGD929",
+  "evidence": "https://lehivalley.com/our-brands/",
+  "note": "Arizona snack maker; Snackworthy, High Valley Orchard, Arizona Snack Co are its own brands (also packs private label e.g. Signature Select)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Ingles Markets Inc.",
+  "company_id": "549300XH5RYBMYP8TF26",
+  "evidence": "https://en.wikipedia.org/wiki/Ingles",
+  "note": "NASDAQ IMKTA supermarket chain; Laura Lynn is its store brand",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Dierberg's Markets, Inc.",
+  "company_id": "Q5274978",
+  "evidence": "https://en.wikipedia.org/wiki/Dierbergs_Markets",
+  "note": "Private family-owned grocer, Chesterfield MO; store-brand owner",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Dole Packaged Foods, LLC",
+  "company_id": "9845006955C50Y89AA86",
+  "evidence": "https://www.dolesunshine.com/us/en/news/dole-completes-sale-of-worldwide-packaged-foods-and-asia-fresh-businesses/",
+  "note": "Sold by Dole to ITOCHU, closed 2013-04-01. Do NOT alias to Dole plc (635400JUG5XJXOPPJJ47), a different company. Imported as its own node (rather than alias to Itochu) so the DOLE packaged brand is not conflated with Dole plc",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Link Snacks, Inc.",
+  "company_id": "V1Q6BGDWWRD8952MIZ30",
+  "evidence": "https://en.wikipedia.org/wiki/Jack_Link%27s",
+  "note": "Legal name of Jack Link's; private, Minong WI; Golden Island acquired from Tyson 2019",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "LINK SNACKS INC.",
+  "company_id": "V1Q6BGDWWRD8952MIZ30",
+  "evidence": "https://en.wikipedia.org/wiki/Jack_Link%27s",
+  "note": "spelling variant of Link Snacks, Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "LINK SNACKS, INC.",
+  "company_id": "V1Q6BGDWWRD8952MIZ30",
+  "evidence": "https://en.wikipedia.org/wiki/Jack_Link%27s",
+  "note": "spelling variant of Link Snacks, Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Harmons Inc",
+  "company_id": "Q5659378",
+  "evidence": "https://en.wikipedia.org/wiki/Harmons",
+  "note": "Private Harmon-family-owned grocer, West Valley City UT; store-brand owner",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "HARMONS",
+  "company_id": "Q5659378",
+  "evidence": "https://en.wikipedia.org/wiki/Harmons",
+  "note": "spelling variant of Harmons Inc",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "DFA Dairy Brands, LLC",
+  "company_id": "1LTUIZEFFT7MUIERI838",
+  "evidence": "https://search.gleif.org/#/record/549300EPKVPD22O7DD77",
+  "note": "DFA subsidiary holding former Dean Foods brands bought in 2020 bankruptcy (asset sale). Do NOT alias to the Dean Foods node (liquidated). GLEIF sister entity DFA Dairy Brands Fluid LLC shows DFA as direct/ultimate parent; DFA itself not in graph and should also be imported",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Cooperative Regions of Organic Producer Pools",
+  "company_id": "549300LBDYMFUOZ5CS27",
+  "evidence": "https://en.wikipedia.org/wiki/Organic_Valley",
+  "note": "CROPP Cooperative = Organic Valley / Organic Prairie, farmer-owned, La Farge WI",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Coborn's Incorporated",
+  "company_id": "549300OUIANL61QTFK82",
+  "evidence": "https://search.gleif.org/#/record/549300OUIANL61QTFK82",
+  "note": "Employee/family-owned grocer, St. Cloud MN; store-brand owner",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "The Pictsweet Company",
+  "company_id": "549300P52MLILE6N8781",
+  "evidence": "https://search.gleif.org/#/record/549300P52MLILE6N8781",
+  "note": "Private frozen-vegetable company (Tennessee); Pictsweet Farms is its brand; LEI lapsed",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Just Born, Inc.",
+  "company_id": "5493007F837HVIFNXT29",
+  "evidence": "https://en.wikipedia.org/wiki/Just_Born",
+  "note": "Private, Shaffer family, Bethlehem PA; Peeps, Mike and Ike, Hot Tamales, Goldenberg's",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "World Finer Foods, Inc.",
+  "company_id": "549300Q0NKPL0PF2RU79",
+  "evidence": "https://worldfiner.com/about-us/history/",
+  "note": "Successor of Reese Finer Foods; owns REESE (and allied DaVinci); also distributes third-party brands. Reported 2021 acquisition by Andros (graph 9695006ARZU1PBC9M649) seen only in a PitchBook snippet - NOT verified, parent left blank",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "United States Bakery",
+  "company_id": "549300UVN72MMMDPOM13",
+  "evidence": "https://en.wikipedia.org/wiki/United_States_Bakery",
+  "note": "Private, Portland OR; Franz Bakery and regional bread brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Now Health Group Inc.",
+  "company_id": "5493003QP17UE8F4EU95",
+  "evidence": "https://search.gleif.org/#/record/5493003QP17UE8F4EU95",
+  "note": "Maker of NOW Foods supplements/foods, Bloomingdale IL, privately held; LEI lapsed",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Sargento Foods Inc",
+  "company_id": "ODPLA0ZTWN0P454KMI47",
+  "evidence": "https://search.gleif.org/#/record/ODPLA0ZTWN0P454KMI47",
+  "note": "Private, Gentine family-owned (Wikipedia). CLOVER VALLEY (Dollar General) items are private label it packs.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Nardone Brothers Baking Co. Inc.",
+  "company_id": "549300P1CD267UL4NP94",
+  "evidence": "https://search.gleif.org/#/record/549300P1CD267UL4NP94",
+  "note": "Wilkes-Barre PA pizza baker, own Nardone Bros brand. CLOVER VALLEY items are Dollar General private label.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Nardone Brothers Baking Co.  Inc.",
+  "company_id": "549300P1CD267UL4NP94",
+  "evidence": "https://search.gleif.org/#/record/549300P1CD267UL4NP94",
+  "note": "Spelling variant of Nardone Brothers Baking Co. Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Nardone Brothers Baking Co.",
+  "company_id": "549300P1CD267UL4NP94",
+  "evidence": "https://search.gleif.org/#/record/549300P1CD267UL4NP94",
+  "note": "Spelling variant of Nardone Brothers Baking Co. Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Newman's Own, Inc.",
+  "company_id": "Q13653036",
+  "evidence": "https://en.wikipedia.org/wiki/Newman%27s_Own",
+  "note": "Owned by Newman's Own Foundation (Q140868736) since 2008.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "NEWMAN'S OWN",
+  "company_id": "Q13653036",
+  "evidence": "https://en.wikipedia.org/wiki/Newman%27s_Own",
+  "note": "Spelling variant of Newman's Own, Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Bar-S Foods Co.",
+  "company_id": "549300FW3RGHPHT21D10",
+  "evidence": "https://www.provisioneronline.com/articles/92600-sigma-alimentos-acquires-bar-s-foods-1",
+  "note": "Sigma Alimentos completed acquisition of Bar-S on 2010-09-02. Neither Bar-S nor Sigma is in graph (graph 'ALFA' 9845005BFB0D6F94C625 is a Latvian company - do NOT use).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Hammond's Candies Since 1920, LLC",
+  "company_id": "Q16994743",
+  "evidence": "https://en.wikipedia.org/wiki/Hammond%27s_Candies",
+  "note": "Private Denver candy maker; owns Old Dominion Peanut Co. (acquired 2013). GLEIF has 'Hammond's Candies Since 1920 II, LLC' (549300V5CHUH5XFZRP77) - related but not the same string, so LEI left null. WONDERSHOP = Target private label it packs.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Lipari Foods Operating Company, LLC",
+  "company_id": "549300XMN0Z7IP2EPS48",
+  "evidence": "https://search.gleif.org/#/record/549300XMN0Z7IP2EPS48",
+  "note": "Warren MI distributor that owns Yoder's (via I&K Distributors), JLM Manufacturing and Jim's Cheese; acquired by Littlejohn & Co. 2022. Mixed: WHOLEY is Robert Wholey & Co., distributed not owned - medium confidence.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Barilla G & R F.Lli S.P.A.",
+  "company_id": "529900HWBYCO8M2UN457",
+  "evidence": "https://search.gleif.org/#/record/529900HWBYCO8M2UN457",
+  "note": "Barilla parent company (Parma); family-owned. Not in graph.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "New Seasons Market, LLC",
+  "company_id": "549300RMMS5IQSFZPN20",
+  "evidence": "https://www.grocerydive.com/news/new-seasons-market-acquired-by-good-food-holdings/568826/",
+  "note": "Retailer's own entity for NEW SEASONS / NEW LEAF store brands; acquired by Good Food Holdings, closed 2020-01-10.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Dietz & Watson Inc.",
+  "company_id": "549300UPCX08AU3GCJ26",
+  "evidence": "https://search.gleif.org/#/record/549300UPCX08AU3GCJ26",
+  "note": "Private family-owned deli meats/cheese maker. RURAL KING is a retailer private label (minor).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "PANOS Brands LLC",
+  "company_id": "5493008SPSY87SQULF34",
+  "evidence": "https://www.just-food.com/news/private-equity-firm-hkw-acquires-panos-brands/",
+  "note": "HKW acquired Panos (closed 2016-02-09); Panos acquired Walden Farms 2017. Owns Ka-Me, Sesmark, Walden Farms.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Wehah Farm Inc",
+  "company_id": "549300Y0ND8IOHLW3G45",
+  "evidence": "https://en.wikipedia.org/wiki/Lundberg_Family_Farms",
+  "note": "Wehah Farm Inc. is the formal name of Lundberg Family Farms, Lundberg family-owned. (Q6704106 description wrongly says 'human settlement' but it is the enwiki-linked item.)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Johnsonville Sausage, L.L.C.",
+  "company_id": "549300YL6AO5GFJS3C41",
+  "evidence": "https://search.gleif.org/#/record/549300YL6AO5GFJS3C41",
+  "note": "Private Sheboygan Falls WI sausage maker; 'Johnsonville Sausage, L.L.C.' is the former name of Johnsonville, LLC.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Ferolito Vultaggio & Sons",
+  "company_id": "Q4791249",
+  "evidence": "https://en.wikipedia.org/wiki/AriZona_Beverage_Company",
+  "note": "Founders' company behind AriZona; privately held by Vultaggio family. SKINNYGIRL and WELCH'S are licensed brands.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Johanna Foods, Inc.",
+  "company_id": "3U4VJCF2OT62QE16TF80",
+  "evidence": "https://search.gleif.org/#/record/3U4VJCF2OT62QE16TF80",
+  "note": "Private Flemington NJ juice/yogurt maker (La Yogurt, Ssips, Tree Ripe).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Godiva Chocolatier, Inc.",
+  "company_id": "549300TSRV6WHDJCJV14",
+  "evidence": "https://search.gleif.org/#/record/549300TSRV6WHDJCJV14",
+  "note": "GLEIF ultimate parent = Yildiz Holding A.S. (789000IEI7MUCYH35287); owned since March 2008.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Perfection Bakeries, Inc.",
+  "company_id": "549300GI415SACLQNT21",
+  "evidence": "https://search.gleif.org/#/record/549300GI415SACLQNT21",
+  "note": "Private Fort Wayne IN baker of Aunt Millie's. CLOVER VALLEY = Dollar General private label (minor).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Tootsie Roll Industries Inc.",
+  "company_id": "529900SBKOV9XX4M4Q35",
+  "evidence": "https://search.gleif.org/#/record/529900SBKOV9XX4M4Q35",
+  "note": "Public Chicago confectioner (NYSE: TR).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Piggly Wiggly Company",
+  "company_id": "Q3388303",
+  "evidence": "https://en.wikipedia.org/wiki/C%26S_Wholesale_Grocers",
+  "note": "C&S owns the Piggly Wiggly brand (franchised) via Piggly Wiggly, LLC; PIGGLY WIGGLY store-brand products. 'Piggly Wiggly Company' assumed = this entity - medium confidence.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Brandless, Inc",
+  "company_id": "Q46996029",
+  "evidence": "https://en.wikipedia.org/wiki/Brandless",
+  "note": "DTC brand; Brandless Inc. shut down Feb 2020, assets bought by Clarke Capital Partners and Ikonifi (June 2020). Low value; could also be skipped.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Bellisio Foods Inc",
+  "company_id": "549300GIEE3QCVWU7P80",
+  "evidence": "https://www.foodbusinessnews.net/articles/7362-charoen-pokphand-foods-completes-1-075-billion-acquisition-of-bellisio-foods",
+  "note": "CP Foods completed acquisition (announced Dec 2016/Jan 2017). WHITE CASTLE / EATINGWELL are licensed.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Old Dutch Foods Inc",
+  "company_id": "Q1743896",
+  "evidence": "https://en.wikipedia.org/wiki/Old_Dutch_Foods",
+  "note": "Private St. Paul MN snack maker. GLEIF LEI 549300XRRKZITH3W0S95 is the Canadian sister Old Dutch Foods Ltd. (not this entity).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Jelly Belly Candy Company",
+  "company_id": "5493003OYOQCP0ZEWV53",
+  "evidence": "https://en.wikipedia.org/wiki/Jelly_Belly",
+  "note": "Ferrara (via CTH Invest) agreed Oct 2023, completed ~Nov 2023. HELLO KITTY is licensed.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Hometown Food Company",
+  "company_id": "549300CRSXZPUBO6JA05",
+  "evidence": "https://www.brynwoodpartners.com/news-article/hometown-food-company-closes-the-acquisition-of-the-pillsbury%C2%AE-shelf-stable-baking-business-the-hungry-jack%C2%AE-brand-and-other-assets-from-the-jm-smucker-company-and-appoints-senior-management",
+  "note": "Brynwood portfolio co. that bought Smucker's baking brands (2018). Owns Martha White, White Lily, Hungry Jack, Jim Dandy; PILLSBURY is licensed (exclusive US rights) from General Mills.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Palermo Villa Inc.",
+  "company_id": "Q7127256",
+  "evidence": "https://biztimes.com/growing-their-slice-of-the-pie/",
+  "note": "Fallucca family-owned Milwaukee frozen pizza maker (Palermo's, Screamin' Sicilian, Urban Pie, Connie's).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "R.A.B. Food Group, LLC",
+  "company_id": "Q6749872",
+  "evidence": "https://www.foodbusinessnews.net/articles/14251-kayco-to-acquire-manischewitzs-kosher-food-business",
+  "note": "Kayco acquired Manischewitz kosher food business in 2019 (Wikipedia lists Kayco as current owner). Exact close date not confirmed.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Litehouse Inc.",
+  "company_id": "549300YIN6N3G98W7Z98",
+  "evidence": "https://www.litehousefoods.com/",
+  "note": "100% employee-owned Sandpoint ID; owns Litehouse, Organicville, Sky Valley, Veggiecraft.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "LITEHOUSE",
+  "company_id": "549300YIN6N3G98W7Z98",
+  "evidence": "https://www.litehousefoods.com/",
+  "note": "Spelling variant of Litehouse Inc.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "R.M. Palmer Co.",
+  "company_id": "549300QWD0IFHL2CJZ04",
+  "evidence": "https://search.gleif.org/#/record/549300QWD0IFHL2CJZ04",
+  "note": "Private West Reading PA chocolatier; YOO-HOO is licensed (KDP) and WALMART items are private label - mixed.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Continental Mills, Inc.",
+  "company_id": "P1HZCTOA0IJRFM0U6E20",
+  "evidence": "https://www.prnewswire.com/news-releases/continental-mills-announces-name-change-to-the-krusteaz-company-in-honor-of-flagship-brands-90th-anniversary-301624540.html",
+  "note": "Renamed Sept 2022; private. Owns Krusteaz, Buck Wild, WildRoots; GHIRARDELLI mixes are licensed. Q104864465 is the Krusteaz brand-line item.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Byerly Foods International",
+  "company_id": "Q6704067",
+  "evidence": "https://www.dnb.com/business-directory/company-profiles/byerly-foods-international-inc.bda383bdd7c9e3de0a2a1d5e8ecadace",
+  "note": "Lund Food Holdings-affiliated entity (president Russell T. Lund III) for LUNDS & BYERLYS store brand - retailer's own entity. Medium confidence.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Iberia Foods Corporation",
+  "company_id": "254900Y8WWDM6DMVZY85",
+  "evidence": "https://www.iberiafoods.com/",
+  "note": "Iberia brand owner (site (c) Iberia Foods, LLC); 'Iberia Foods Corporation' presumed predecessor/same group. Other brands (Excelsior, Caribbean Rhythms) not confirmed.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Mount Olive Pickle Company Inc.",
+  "company_id": "Q17109777",
+  "evidence": "https://en.wikipedia.org/wiki/Mt._Olive_Pickle_Company",
+  "note": "Independent, privately owned; owns MT. OLIVE and Majestic brands (CLOVER VALLEY is Dollar General private label it packs)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Badia Spices Inc.",
+  "company_id": "Q17461014",
+  "evidence": "https://badiaspices.com/who-we-are/",
+  "note": "Family-owned Miami spice company; OLIVE GARDEN/LONGHORN items are licensed restaurant brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "SweetWorks Confections, LLC",
+  "company_id": "5493008EB3RPL5Z8B188",
+  "evidence": "https://search.gleif.org/#/record/5493008EB3RPL5Z8B188",
+  "note": "Owns Sixlets (bought from Hershey 2003), Niagara Chocolates, Celebration by SweetWorks; FREY is a distributed Swiss (Migros) brand",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "SWEETWORKS CONFECTIONS, LLC",
+  "company_id": "5493008EB3RPL5Z8B188",
+  "evidence": "https://search.gleif.org/#/record/5493008EB3RPL5Z8B188",
+  "note": "Owns Sixlets (bought from Hershey 2003), Niagara Chocolates, Celebration by SweetWorks; FREY is a distributed Swiss (Migros) brand",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Orgain, Inc.",
+  "company_id": "254900W7DLYWNNOLST31",
+  "evidence": "https://www.nestlehealthscience.com/newsroom/press-releases/nhs-to-acquire-majority-stake-in-orgain",
+  "note": "Nestlé Health Science bought a majority stake (announced 2022-02-02); founder and Butterfly Equity kept minority, so import Orgain with Nestlé as parent rather than alias",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Clover Stornetta Farms, Inc.",
+  "company_id": "Q5135909",
+  "evidence": "https://www.just-food.com/news/colombias-alpina-buys-majority-stake-in-us-dairy-firm-clover-sonoma/",
+  "note": "Alpina (Q4735450, not in graph) holds majority; Benedetti family retains minority",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Lifeway Foods Inc.",
+  "company_id": "Q6545549",
+  "evidence": "https://www.sec.gov/Archives/edgar/data/814586/000199937125013500/ex99-1.htm",
+  "note": "Nasdaq-listed (LWAY); Danone is a minority holder and dropped its acquisition attempt 2025-09-17, so no parent",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Welch Foods Inc",
+  "company_id": "549300V9BHF8BRYT1J62",
+  "evidence": "https://en.wikipedia.org/wiki/Welch%27s",
+  "note": "Owned by National Grape Co-operative since 1956 (not in graph)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "WELCH FOODS INC.",
+  "company_id": "549300V9BHF8BRYT1J62",
+  "evidence": "https://en.wikipedia.org/wiki/Welch%27s",
+  "note": "Owned by National Grape Co-operative since 1956 (not in graph)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Gracekennedy Foods (USA) LLC",
+  "company_id": "98450045AOAD0MFS8C77",
+  "evidence": "https://abasto.com/en/news/gracekennedy-buys-food-chain-us/",
+  "note": "US arm of Jamaica's GraceKennedy, which bought La Fe Foods and brand in 2014; parent not in graph",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Vigo Importing Company",
+  "company_id": "549300YO3Z8SZOPQ4T89",
+  "evidence": "https://alessifoods.com/about/family-history",
+  "note": "Family-owned Tampa company that owns the Vigo and Alessi brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "G L Mezzetta, Inc.",
+  "company_id": "549300M53HVC0ZX2EO92",
+  "evidence": "https://search.gleif.org/#/record/549300M53HVC0ZX2EO92",
+  "note": "Family-owned (Mezzetta family), no acquisition found; owns Mezzetta and Jeff's Garden",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Darigold, Inc.",
+  "company_id": "X6VHKJ6E4F0SXINOWI05",
+  "evidence": "https://en.wikipedia.org/wiki/Darigold",
+  "note": "Processing/marketing subsidiary of the Northwest Dairy Association co-op (not in graph)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "DARIGOLD",
+  "company_id": "X6VHKJ6E4F0SXINOWI05",
+  "evidence": "https://en.wikipedia.org/wiki/Darigold",
+  "note": "Processing/marketing subsidiary of the Northwest Dairy Association co-op (not in graph)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Harry and David",
+  "company_id": "Q16983369",
+  "evidence": "https://en.wikipedia.org/wiki/Harry_%26_David",
+  "note": "Owned by 1-800-Flowers since August 2014 (not in graph); owns Wolferman's and Moose Munch",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Lakeview Farms, LLC",
+  "company_id": "549300ZC55ZY26HCT654",
+  "evidence": "https://finance.yahoo.com/news/raymundo-food-group-acquired-capvest-133136887.html",
+  "note": "Delphos OH dips and desserts maker (Señor Rico, Salads of the Sea), now owned by CapVest, which is not in graph",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "LAKEVIEW FARMS INC.",
+  "company_id": "549300ZC55ZY26HCT654",
+  "evidence": "https://finance.yahoo.com/news/raymundo-food-group-acquired-capvest-133136887.html",
+  "note": "Delphos OH dips and desserts maker (Señor Rico, Salads of the Sea), now owned by CapVest, which is not in graph",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "LAKEVIEW FARMS LLC.",
+  "company_id": "549300ZC55ZY26HCT654",
+  "evidence": "https://finance.yahoo.com/news/raymundo-food-group-acquired-capvest-133136887.html",
+  "note": "Delphos OH dips and desserts maker (Señor Rico, Salads of the Sea), now owned by CapVest, which is not in graph",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "StarKist Co.",
+  "company_id": "Q23461978",
+  "evidence": "https://en.wikipedia.org/wiki/StarKist",
+  "note": "Wholly owned by Dongwon Industries since 2008-06-24, but Dongwon is not in the graph (only DONGWON CZ). Q23461978 is labelled as the tuna brand",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "STARKIST",
+  "company_id": "Q23461978",
+  "evidence": "https://en.wikipedia.org/wiki/StarKist",
+  "note": "Wholly owned by Dongwon Industries since 2008-06-24, but Dongwon is not in the graph (only DONGWON CZ). Q23461978 is labelled as the tuna brand",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Boar's Head Provision Co., Inc.",
+  "company_id": "Q4931262",
+  "evidence": "https://en.wikipedia.org/wiki/Boar%27s_Head_Provision_Company",
+  "note": "Privately held by the founders' descendants, Sarasota FL",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Brakebush Brothers",
+  "company_id": "5493003267M1TL432T05",
+  "evidence": "https://www.prnewswire.com/news-releases/hormel-foods-announces-definitive-agreement-to-acquire-brakebush-a-leading-value-added-chicken-company-302893854.html",
+  "note": "Family-owned. Hormel (MSD54751OJP1FS2ND863) signed to buy it 2026-09-30, with close expected in Hormel FY2027 Q1. NOT closed, so no parent yet; revisit after close",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Brakebush Brothers, Inc.",
+  "company_id": "5493003267M1TL432T05",
+  "evidence": "https://www.prnewswire.com/news-releases/hormel-foods-announces-definitive-agreement-to-acquire-brakebush-a-leading-value-added-chicken-company-302893854.html",
+  "note": "Family-owned. Hormel (MSD54751OJP1FS2ND863) signed to buy it 2026-09-30, with close expected in Hormel FY2027 Q1. NOT closed, so no parent yet; revisit after close",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Brakebush Brothers Inc.",
+  "company_id": "5493003267M1TL432T05",
+  "evidence": "https://www.prnewswire.com/news-releases/hormel-foods-announces-definitive-agreement-to-acquire-brakebush-a-leading-value-added-chicken-company-302893854.html",
+  "note": "Family-owned. Hormel (MSD54751OJP1FS2ND863) signed to buy it 2026-09-30, with close expected in Hormel FY2027 Q1. NOT closed, so no parent yet; revisit after close",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Ruiz Food Products Inc",
+  "company_id": "549300MNUNRYUOMQVE55",
+  "evidence": "https://en.wikipedia.org/wiki/Ruiz_Foods",
+  "note": "Family-founded frozen Mexican food maker (El Monterey)",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "The Schwan Food Company",
+  "company_id": "549300VN2LZZ4ET04617",
+  "evidence": "https://www.foodprocessing.com/home/news/11311977/schwans-sells-majority-stake-to-koreas-cj-cheiljedang",
+  "note": "CJ CheilJedang holds 80%, Schwan family 20%, so import with parent edge instead of alias",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Kar Nut Products Company",
+  "company_id": "Q6367426",
+  "evidence": "https://www.detroitnews.com/story/business/2022/04/26/second-nature-brands-maker-kars-nuts-and-sanders-chocolates-sold/7451620001/",
+  "note": "Kar's Nuts became the Second Nature Brands platform. CapVest bought it from Palladium in April 2022; CapVest is not in graph",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Agri-Mark, Inc.",
+  "company_id": "549300ZIGMZVT8JRXV97",
+  "evidence": "https://en.wikipedia.org/wiki/Cabot_Creamery",
+  "note": "Dairy co-op that owns Cabot Creamery (Q5015773) and McCadam. Do NOT alias to graph 'Cabot' 5493004I8YV43NN4XD67, which is the City of Cabot, Arkansas",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Sun-Maid Growers",
+  "company_id": "549300580SDJTULOJG88",
+  "evidence": "https://www.thecampbellscompany.com/newsroom/press-releases/sun-maid-growers-of-california-acquires-plum-organics-from-campbell-soup-company-2/",
+  "note": "Grower cooperative; bought Plum Organics from Campbell in 2021",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Perdue Farms Incorporated",
+  "company_id": "5493006F09YYUZLWC372",
+  "evidence": "https://en.wikipedia.org/wiki/Perdue_Farms",
+  "note": "Private, family-held; the holding company also owns Coleman Natural",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Royal Wine Corporation",
+  "company_id": "549300DU41SRWDD13S39",
+  "evidence": "https://en.wikipedia.org/wiki/Kedem_Winery",
+  "note": "Herzog-family company that owns Kedem; Yehuda and Kineret also appear to be its brands",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Fairway Operating Corp.",
+  "company_id": "25490069686XCNNEMQ07",
+  "evidence": "https://www.sec.gov/Archives/edgar/data/103595/000010359520000033/vlgea-20200725.htm",
+  "note": "Fairway (Q5430910) went bankrupt; Village Super Market (ShopRite operator) acquired the Fairway names/IP on 2020-05-14. The original owner entity is defunct, so map the store brand to Village",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Colavita USA, LLC",
+  "company_id": "549300YHI3JQD7JBF485",
+  "evidence": "https://njbmagazine.com/monthly-articles/colavita-family-brings-italian-roots-to-new-jersey/",
+  "note": "US subsidiary, controlled by Colavita S.p.A. since 2008; parent not in graph. RACHAEL RAY / OLIVE GARDEN are licensed",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Fresh Gourmet Company",
+  "company_id": "Q137070534",
+  "evidence": "https://www.businesswire.com/news/home/20231003594325/en/Pritzker-Private-Capital-Acquires-Sugar-Foods",
+  "note": "Sugar Foods (owner of Fresh Gourmet) was bought by Pritzker Private Capital on 2023-10-03, then took the Fresh Gourmet Company name after adding Concord Foods",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "FRESH GOURMET",
+  "company_id": "Q137070534",
+  "evidence": "https://www.businesswire.com/news/home/20231003594325/en/Pritzker-Private-Capital-Acquires-Sugar-Foods",
+  "note": "Sugar Foods (owner of Fresh Gourmet) was bought by Pritzker Private Capital on 2023-10-03, then took the Fresh Gourmet Company name after adding Concord Foods",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Shearer's Foods LLC",
+  "company_id": "549300AQWIJSYS2CIH04",
+  "evidence": "https://www.cdr.com/news/cdr-completes-acquisition-of-shearers-foods",
+  "note": "Owns Shearer's/Barrel O' Fun/Riceworks; CD&R acquired Dec 2023. Also big private-label maker (CLOVER VALLEY = Dollar General store brand) so some barcodes are co-packed.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Shearer’s Foods LLC",
+  "company_id": "549300AQWIJSYS2CIH04",
+  "evidence": "https://www.cdr.com/news/cdr-completes-acquisition-of-shearers-foods",
+  "note": "extra spelling of same entity; Owns Shearer's/Barrel O' Fun/Riceworks; CD&R acquired Dec 2023. Also big private-label maker (CLOVER VALLEY = Dollar General store brand) so some barcodes are co-packed.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Shearers Foods LLC",
+  "company_id": "549300AQWIJSYS2CIH04",
+  "evidence": "https://www.cdr.com/news/cdr-completes-acquisition-of-shearers-foods",
+  "note": "extra spelling of same entity; Owns Shearer's/Barrel O' Fun/Riceworks; CD&R acquired Dec 2023. Also big private-label maker (CLOVER VALLEY = Dollar General store brand) so some barcodes are co-packed.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Suja Life, LLC",
+  "company_id": "254900PL9MU3CZOI8972",
+  "evidence": "https://www.foodnavigator-usa.com/Article/2022/10/27/suja-life-and-vive-organic-form-wellness-shots-powerhouse-we-believe-both-brands-will-continue-to-grow-at-a-double-digit-pace/",
+  "note": "Suja brand owner; PE-controlled by Paine Schwartz (bought from Coca-Cola 2021); parent PE LEI 2549006PJFTEAWW8RO65.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Butterball, LLC",
+  "company_id": "KMM4GVHWGNZ30QUYWV58",
+  "evidence": "https://www.wattagnet.com/blogs/blog/15535761/did-seaboard-up-butterball-investment-at-an-opportune-time",
+  "note": "Seaboard holds 52.5% controlling stake (Maxwell Farms holds rest), so not wholly owned. Other LEI 549300NLGKRB8KUQ2405 is a DUPLICATE record. QID Q5002847 is the brand item.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Butterball LLC",
+  "company_id": "KMM4GVHWGNZ30QUYWV58",
+  "evidence": "https://www.wattagnet.com/blogs/blog/15535761/did-seaboard-up-butterball-investment-at-an-opportune-time",
+  "note": "extra spelling of same entity; Seaboard holds 52.5% controlling stake (Maxwell Farms holds rest), so not wholly owned. Other LEI 549300NLGKRB8KUQ2405 is a DUPLICATE record. QID Q5002847 is the brand item.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "BUTTERBALL",
+  "company_id": "KMM4GVHWGNZ30QUYWV58",
+  "evidence": "https://www.wattagnet.com/blogs/blog/15535761/did-seaboard-up-butterball-investment-at-an-opportune-time",
+  "note": "extra spelling of same entity; Seaboard holds 52.5% controlling stake (Maxwell Farms holds rest), so not wholly owned. Other LEI 549300NLGKRB8KUQ2405 is a DUPLICATE record. QID Q5002847 is the brand item.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Bel Brands USA Inc.",
+  "company_id": "549300P6WPYMCWUG5415",
+  "evidence": "https://www.wikidata.org/wiki/Q112203456",
+  "note": "US arm of Groupe Bel (Q491034, not in graph): Babybel, Laughing Cow, Kaukauna.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Land O'Frost, Inc.",
+  "company_id": "549300U5V5NR5BEQDV34",
+  "evidence": "https://search.gleif.org/#/record/549300U5V5NR5BEQDV34",
+  "note": "Family-owned deli meat maker (Lansing IL); owns Land O'Frost, Wimmer's, Gone Rogue.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "LAND O' FROST",
+  "company_id": "549300U5V5NR5BEQDV34",
+  "evidence": "https://search.gleif.org/#/record/549300U5V5NR5BEQDV34",
+  "note": "extra spelling of same entity; Family-owned deli meat maker (Lansing IL); owns Land O'Frost, Wimmer's, Gone Rogue.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Palmer Candy Company",
+  "company_id": "Q7128219",
+  "evidence": "https://www.wikidata.org/wiki/Q7128219",
+  "note": "Sioux City IA candy maker; owns Palmer brands. HY-VEE barcodes are private label packed for Hy-Vee.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Ventura Foods, L.L.C.",
+  "company_id": "5493008FSEGI8DPFOV47",
+  "evidence": "https://search.gleif.org/#/record/5493008FSEGI8DPFOV47",
+  "note": "GLEIF ultimate parent = CHS Inc.; actually a CHS/Mitsubishi Corp JV (not wholly owned). Owns Marie's, Dean's, Louana; HIDDEN VALLEY items are licensed/co-packed (Clorox brand).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "VENTURA FOODS, LLC",
+  "company_id": "5493008FSEGI8DPFOV47",
+  "evidence": "https://search.gleif.org/#/record/5493008FSEGI8DPFOV47",
+  "note": "extra spelling of same entity; GLEIF ultimate parent = CHS Inc.; actually a CHS/Mitsubishi Corp JV (not wholly owned). Owns Marie's, Dean's, Louana; HIDDEN VALLEY items are licensed/co-packed (Clorox brand).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Ferris Coffee & Nut Co.",
+  "company_id": "549300JAQCWETESG3X08",
+  "evidence": "https://search.gleif.org/#/record/549300JAQCWETESG3X08",
+  "note": "Grand Rapids MI roaster/nut company; owns FERRIS brand. Some barcodes packed for retailers (Albrecht's).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Frontier Cooperative Herbs",
+  "company_id": "549300WGCD3EZZ4OBD81",
+  "evidence": "https://www.wikidata.org/wiki/Q5506024",
+  "note": "Frontier Co-op (Norway, Iowa) owns Simply Organic and Frontier Co-op. Do NOT use LEI 549300KPI4NRB08LZL38 (Nebraska ag co-op).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Faribault Foods, Inc.",
+  "company_id": "549300QWIK196ZNZ3X31",
+  "evidence": "https://www.preparedfoods.com/articles/114313-la-costea-buys-faribault-foods",
+  "note": "Owns Kuner's, Butter Kernel; La Costeña (Mexico) acquired Aug 1, 2014. S&W is licensed from Del Monte.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Food Match, Inc.",
+  "company_id": "549300MCIDIOHYKYJO70",
+  "evidence": "https://foodmatch.com/",
+  "note": "Family-owned NYC producer/importer; DIVINA is its own brand.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Mission Foods Inc",
+  "company_id": "54930072LOEDYPY5EI50",
+  "evidence": "https://www.wikidata.org/wiki/Q6878592",
+  "note": "US subsidiary of Gruma (Q545402, not in graph).",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Pez Candy, Inc.",
+  "company_id": "Q1500277",
+  "evidence": "https://us.pez.com/pages/company-information",
+  "note": "US arm (Orange CT) of PEZ; parent PEZ International GmbH LEI 529900DFE9KY17RUWH22. QID is the Pez brand item. Character names (Disney, Paw Patrol) are licensed dispenser designs on PEZ products.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Foster Poultry Farms",
+  "company_id": "254900A1ADVWRHTPG377",
+  "evidence": "https://www.prnewswire.com/news-releases/atlas-holdings-completes-acquisition-of-foster-farms-301563344.html",
+  "note": "Atlas Holdings (Q134287099, not in graph) acquired Foster Farms June 7, 2022.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Belgioioso Cheese, Inc.",
+  "company_id": "Q4882569",
+  "evidence": "https://www.wikidata.org/wiki/Q4882569",
+  "note": "Family-owned Wisconsin cheesemaker; owns BelGioioso/La Bottega.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "BELGIOIOSO CHEESE INC",
+  "company_id": "Q4882569",
+  "evidence": "https://www.wikidata.org/wiki/Q4882569",
+  "note": "extra spelling of same entity; Family-owned Wisconsin cheesemaker; owns BelGioioso/La Bottega.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "BELGIOIOSO CHEESE INC.",
+  "company_id": "Q4882569",
+  "evidence": "https://www.wikidata.org/wiki/Q4882569",
+  "note": "extra spelling of same entity; Family-owned Wisconsin cheesemaker; owns BelGioioso/La Bottega.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Old Orchard Brands LLC.",
+  "company_id": "Q7084668",
+  "evidence": "https://www.lassonde.com/en/actualites/lassonde-industries-completes-the-acquisition-of-u-s-based-old-orchard-brands/",
+  "note": "Acquired by Lassonde Industries (LEI 549300U3Y8OW3GQ0VE25, Q3218365; not in graph) May 31, 2018.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Ken's Foods, Inc.",
+  "company_id": "984500CF07763AEE7D36",
+  "evidence": "https://www.wikidata.org/wiki/Q6387193",
+  "note": "Family-owned Marlborough MA dressing maker; owns Ken's Steak House, Sticky Fingers.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Eden Foods, Inc.",
+  "company_id": "549300PW3P1TIDHLGD40",
+  "evidence": "https://www.wikidata.org/wiki/Q5336845",
+  "note": "Independent Clinton MI organic food company; owns EDEN/Edensoy.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Southeastern Mills Inc.",
+  "company_id": "5493004WTPSEVPSE6N77",
+  "evidence": "https://www.businesswire.com/news/home/20231130369318/en/EagleTree-Capital-Acquires-Summit-Hill-Foods-Owner-of-Better-Than-Bouillon-and-The-Original-Louisiana-Hot-Sauce",
+  "note": "Rebranded Summit Hill Foods (2020); owns Better Than Bouillon, Louisiana Hot Sauce; EagleTree Capital acquired Nov 2023. LEI lapsed.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "National Food Group  Inc.",
+  "company_id": "5493000QKIEYMS2I8X23",
+  "evidence": "https://nationalfoodgroup.com/about-us/news-media/zee-zees-bars-win-qvc-customer-choice-2022-1",
+  "note": "Novi MI company; owns Zee Zees and Elated Plates.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "National Food Group, Inc.",
+  "company_id": "5493000QKIEYMS2I8X23",
+  "evidence": "https://nationalfoodgroup.com/about-us/news-media/zee-zees-bars-win-qvc-customer-choice-2022-1",
+  "note": "extra spelling of same entity; Novi MI company; owns Zee Zees and Elated Plates.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "National Food Group",
+  "company_id": "5493000QKIEYMS2I8X23",
+  "evidence": "https://nationalfoodgroup.com/about-us/news-media/zee-zees-bars-win-qvc-customer-choice-2022-1",
+  "note": "extra spelling of same entity; Novi MI company; owns Zee Zees and Elated Plates.",
+  "reviewed": "2026-10-05"
+ },
+ {
+  "owner": "Califia Farms, LP",
+  "company_id": "549300XBQQGMSL6TZZ43",
+  "evidence": "https://search.gleif.org/#/record/549300XBQQGMSL6TZZ43",
+  "note": "Private plant-milk company; owns CALIFIA FARMS (CUTIES is licensed).",
+  "reviewed": "2026-10-05"
+ }
+]

@@ -1,0 +1,14 @@
+dist
+dist-extension
+ios
+
+# Build output, caches, and tooling/worktree dirs (Prettier doesn't read .gitignore)
+coverage
+.pytest_cache
+.worktrees
+.playwright-mcp
+playwright-report
+test-results
+package-lock.json
+pipeline
+public/demo-data

@@ -1,0 +1,200 @@
+<!--
+  Boyk — "Confirm signup" auth email template.
+  Paste into Supabase Dashboard → Authentication → Emails → Templates → "Confirm signup".
+  Supabase substitutes {{ .ConfirmationURL }} at send time.
+
+  Built table-based with inline styles for broad email-client support (Gmail,
+  Apple Mail, Outlook). Light card on neutral background with the pink brand
+  accent — chosen over a dark layout because dark backgrounds render
+  inconsistently across clients and dark-mode inversion.
+
+  The same shell works for the other auth emails — duplicate it and swap the
+  heading, body copy, and button variable:
+    • Magic Link / Login        → {{ .ConfirmationURL }}
+    • Reset Password            → {{ .ConfirmationURL }}
+    • Change Email Address      → {{ .ConfirmationURL }}
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>Confirm your email</title>
+  </head>
+  <body
+    style="margin: 0; padding: 0; background-color: #f4f4f7; -webkit-font-smoothing: antialiased"
+  >
+    <!-- Preheader: shown as the inbox preview, hidden in the body -->
+    <div
+      style="
+        display: none;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        color: transparent;
+        height: 0;
+        width: 0;
+      "
+    >
+      Confirm your email to start using Boyk.
+    </div>
+
+    <table
+      role="presentation"
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      style="background-color: #f4f4f7"
+    >
+      <tr>
+        <td align="center" style="padding: 32px 16px">
+          <table
+            role="presentation"
+            width="100%"
+            cellpadding="0"
+            cellspacing="0"
+            style="max-width: 480px; margin: 0 auto"
+          >
+            <!-- Wordmark -->
+            <tr>
+              <td align="center" style="padding-bottom: 24px">
+                <span
+                  style="
+                    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    letter-spacing: -0.01em;
+                    color: #db2777;
+                  "
+                  >boyk</span
+                >
+              </td>
+            </tr>
+
+            <!-- Card -->
+            <tr>
+              <td
+                style="
+                  background-color: #ffffff;
+                  border: 1px solid #e6e6ee;
+                  border-radius: 14px;
+                  padding: 40px 36px;
+                "
+              >
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td
+                      style="
+                        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+                        font-size: 22px;
+                        font-weight: 700;
+                        color: #16161d;
+                        padding-bottom: 12px;
+                      "
+                    >
+                      Confirm your email
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+                        font-size: 15px;
+                        line-height: 1.6;
+                        color: #51515e;
+                        padding-bottom: 28px;
+                      "
+                    >
+                      Thanks for signing up for Boyk. Confirm this email address to activate your
+                      account and start tracking the companies behind the brands you buy.
+                    </td>
+                  </tr>
+
+                  <!-- Button -->
+                  <tr>
+                    <td align="center" style="padding-bottom: 28px">
+                      <a
+                        href="{{ .ConfirmationURL }}"
+                        style="
+                          display: inline-block;
+                          background-color: #db2777;
+                          background-image: linear-gradient(
+                            135deg,
+                            #db2777 0%,
+                            #ec4899 55%,
+                            #059669 100%
+                          );
+                          color: #ffffff;
+                          font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+                          font-size: 15px;
+                          font-weight: 600;
+                          text-decoration: none;
+                          padding: 14px 32px;
+                          border-radius: 9999px;
+                        "
+                      >
+                        Confirm email
+                      </a>
+                    </td>
+                  </tr>
+
+                  <!-- Fallback link -->
+                  <tr>
+                    <td
+                      style="
+                        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+                        font-size: 13px;
+                        line-height: 1.6;
+                        color: #8a8a99;
+                        padding-bottom: 4px;
+                      "
+                    >
+                      Or paste this link into your browser:
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+                        font-size: 13px;
+                        line-height: 1.6;
+                        word-break: break-all;
+                      "
+                    >
+                      <a
+                        href="{{ .ConfirmationURL }}"
+                        style="color: #be185d; text-decoration: underline"
+                        >{{ .ConfirmationURL }}</a
+                      >
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td
+                style="
+                  padding: 24px 12px 0;
+                  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+                  font-size: 12px;
+                  line-height: 1.6;
+                  color: #9a9aa7;
+                  text-align: center;
+                "
+              >
+                If you didn't create a Boyk account, you can safely ignore this email.
+                <br />
+                <a href="https://boyk.org" style="color: #9a9aa7; text-decoration: underline"
+                  >boyk.org</a
+                >
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

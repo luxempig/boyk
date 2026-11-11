@@ -1,0 +1,20 @@
+{
+  "name": "boyk-neo4j-api",
+  "version": "1.0.0",
+  "description": "Neo4j API for Boyk company graph",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@sentry/node": "^10.43.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "neo4j-driver": "^6.0.1",
+    "node-cache": "^5.1.2"
+  }
+}

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Boyk - Corporate Intelligence & Boycott Tracker</title>
+    <meta name="title" content="Boyk - Corporate Intelligence & Boycott Tracker" />
+    <meta
+      name="description"
+      content="Track corporate ownership, map company connections, and organize boycotts with real-time intelligence. Scan products, follow the money, and make informed choices."
+    />
+    <meta
+      name="keywords"
+      content="boycott, corporate intelligence, company ownership, product scanner, corporate connections, ethical consumption"
+    />
+    <meta name="author" content="Boyk" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Theme & Mobile -->
+    <meta name="theme-color" content="#0b0b10" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Boyk" />
+
+    <!-- Smart App Banner (Safari iOS) — replace APP_STORE_ID_PLACEHOLDER with the
+         numeric App Store ID once the iOS app is on TestFlight / App Store.
+         The Worker also rewrites this on /boycott/:id paths to add app-argument. -->
+    <!-- <meta name="apple-itunes-app" content="app-id=APP_STORE_ID_PLACEHOLDER" /> -->
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://boyk.org/" />
+    <meta property="og:title" content="Boyk - Corporate Intelligence & Boycott Tracker" />
+    <meta
+      property="og:description"
+      content="Track corporate ownership, map company connections, and organize boycotts with real-time intelligence."
+    />
+    <meta property="og:image" content="https://boyk.org/og-image.jpg" />
+    <meta property="og:site_name" content="Boyk" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://boyk.org/" />
+    <meta name="twitter:title" content="Boyk - Corporate Intelligence & Boycott Tracker" />
+    <meta
+      name="twitter:description"
+      content="Track corporate ownership, map company connections, and organize boycotts with real-time intelligence."
+    />
+    <meta name="twitter:image" content="https://boyk.org/og-image.jpg" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://boyk.org/" />
+
+    <!-- Fonts (self-hosted to avoid Cloudflare Access blocking cross-origin requests) -->
+    <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Core design-system fonts (Space Grotesk display, Sora headings, Plex
+         Mono data labels) load eagerly — every heading/eyebrow/badge depends
+         on them; the print-media deferral made the whole type system fall
+         back to Inter on first paint. -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700;800&display=swap"
+    />
+    <style>
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400 800;
+        font-display: swap;
+        src: url('/fonts/inter-latin.woff2') format('woff2');
+        unicode-range:
+          U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308,
+          U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Boyk",
+        "url": "https://boyk.org",
+        "description": "Track corporate ownership, map company connections, and organize boycotts with real-time intelligence.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Corporate ownership mapping",
+          "Boycott tracking and organization",
+          "Product barcode scanning",
+          "Knowledge graph visualization",
+          "Company connection analysis"
+        ]
+      }
+    </script>
+    <script>
+      // Set theme before first paint to prevent dark-to-light flash
+      ;(function () {
+        try {
+          var stored = JSON.parse(localStorage.getItem('theme'))
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light'
+          document.documentElement.setAttribute('data-theme', theme)
+        } catch (e) {
+          /* ignore */
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

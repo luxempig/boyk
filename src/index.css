@@ -1,0 +1,1264 @@
+:root {
+  /* === DESIGN TOKENS === */
+
+  /* Spacing — 4px base grid (Tailwind-like scale) */
+  --space-0-5: 2px;
+  --space-1: 4px;
+  --space-1-5: 6px;
+  --space-2: 8px;
+  --space-2-5: 10px;
+  --space-3: 12px;
+  --space-3-5: 14px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-9: 36px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+
+  /* Typography — Families (Space Grotesk shouts, Sora argues, Inter reads, Plex Mono sources) */
+  --font-display: 'Space Grotesk', 'Sora', system-ui, sans-serif;
+  --font-heading: 'Sora', 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
+
+  /* Typography — Size */
+  --text-2xs: 9px;
+  --text-xs: 10px;
+  --text-xs2: 11px;
+  --text-sm: 12px;
+  --text-base: 13px;
+  --text-md: 14px;
+  --text-lg: 16px;
+  --text-xl: 18px;
+  --text-2xl: 20px;
+  --text-3xl: 22px;
+  --text-4xl: 28px;
+  --text-5xl: 36px;
+  --text-6xl: 48px;
+  --text-7xl: 64px;
+
+  /* Typography — Letter spacing */
+  --tracking-tighter: -0.03em;
+  --tracking-tight: -0.015em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.04em;
+  --tracking-eyebrow: 0.14em;
+
+  /* Typography — Weight */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+
+  /* Typography — Line Height */
+  --leading-none: 1;
+  --leading-tight: 1.1;
+  --leading-snug: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.6;
+
+  /* Border Radius — sharp-leaning; glass cards top out at 14px */
+  --radius-xs: 3px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-card: 14px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-full: 9999px;
+
+  /* Motion — spring-driven, snappy (mirrors Framer config) */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 0.15s;
+  --dur-base: 0.25s;
+  --dur-slow: 0.4s;
+
+  /* Layout */
+  --app-max: 480px;
+  --content-max: 1120px;
+
+  /* === INDIGO FIST DARK THEME === */
+
+  /* Backgrounds - near-black charcoal, faint cool cast */
+  --bg-dark: #0b0b10;
+  --bg-elevated: #131319;
+  --bg-card: #1a1a22;
+  --bg-card-hover: #22222c;
+  --bg-overlay: rgba(10, 10, 14, 0.95);
+  --bg-inset: #08080c;
+  /* Aliases — resolve per-theme via the root element's own custom props */
+  --bg-hover: var(--bg-card-hover);
+  --bg-secondary: var(--bg-elevated);
+
+  /* Primary accent - indigo (the raised fist) */
+  /* Candy pink, matching iOS (Color.accent). --accent is for text, borders and
+     icons on the page background; anything filled with the accent that carries
+     white text or icons uses --accent-fill, since white on #f472b6 is 2.65:1. */
+  --accent: #f472b6;
+  --accent-light: #f9a8d4;
+  --accent-lighter: #fbcfe8;
+  --accent-dark: #ec4899;
+  --accent-darker: #db2777;
+  --accent-fill: #db2777;
+  --accent-glow: rgba(244, 114, 182, 0.45);
+  --accent-subtle: rgba(244, 114, 182, 0.1);
+  --accent-line: rgba(244, 114, 182, 0.22);
+
+  /* Pink — resist / highlight / counter-accent */
+  --pink-300: #f9a8d4;
+  --pink-400: #f472b6;
+  --pink-500: #ec4899;
+  --highlight: #ec4899;
+  --highlight-glow: rgba(236, 72, 153, 0.4);
+  --highlight-subtle: rgba(236, 72, 153, 0.1);
+
+  /* Secondary accent - kept as gold for achievement/victory badges */
+  --gold: #fbbf24;
+  --gold-light: #fcd34d;
+  --gold-dark: #f59e0b;
+  --gold-glow: rgba(251, 191, 36, 0.4);
+  --gold-subtle: rgba(251, 191, 36, 0.1);
+  --text-on-gold: #18181b;
+
+  /* Ownership / connection data colors (first-class) */
+  --conn-owns: #22c55e;
+  --conn-owned-by: #3b82f6;
+  --conn-brands: #a855f7;
+  --conn-supplier: #f59e0b;
+  --conn-customers: #06b6d4;
+
+  /* Functional colors */
+  --success: #34d399;
+  --success-glow: rgba(52, 211, 153, 0.4);
+  --danger: #fb7185;
+  --danger-strong: #ef4444;
+  --danger-glow: rgba(251, 113, 133, 0.4);
+  --info: #06b6d4;
+  --info-glow: rgba(6, 182, 212, 0.4);
+  --warning: #fbbf24;
+
+  /* Confidence dots (sourced-claim system) */
+  --confidence-high: #34d399;
+  --confidence-medium: #fbbf24;
+  --confidence-low: #fb7185;
+
+  /* Threat gauge ramp */
+  --threat-low: #34d399;
+  --threat-mid: #fbbf24;
+  --threat-high: #fb7185;
+
+  /* Text - crisp whites and grays */
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  /* AA on glass: 12px mono labels sit on glass over near-black; #71717a
+     composited there was ~3.8:1. #8a8a94 clears 4.5:1 while staying muted. */
+  --text-muted: #8a8a94;
+  --text-faint: #52525b;
+  --text-on-accent: #0b0b10;
+  --text: var(--text-primary);
+
+  /* Borders & Glass */
+  --border: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(255, 255, 255, 0.15);
+  --border-strong: rgba(255, 255, 255, 0.22);
+  --border-accent: rgba(244, 114, 182, 0.5);
+  --border-gold: rgba(251, 191, 36, 0.5);
+  --glass-bg: rgba(26, 26, 34, 0.9);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-card: rgba(30, 30, 50, 0.35);
+  --glass-card-border: rgba(255, 255, 255, 0.08);
+  --glass-input-bg: rgba(20, 20, 35, 0.5);
+  --glass-blur: 20px;
+  --glass-blur-heavy: 30px;
+
+  /* Dock — kept dark on both themes (macOS-style); icons stay readable */
+  --dock-bg: rgba(18, 18, 26, 0.92);
+  --dock-icon: rgba(255, 255, 255, 0.65);
+
+  /* Depth layers */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.7);
+  --shadow-glow: 0 0 40px var(--accent-glow);
+  --shadow-glow-pink: 0 0 36px var(--highlight-glow);
+  --shadow-gold: 0 0 30px var(--gold-glow);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+
+  /* Legacy compatibility */
+  --input-bg: #1a1a22;
+  --private-badge: #9d174d;
+  --follow-btn: var(--accent);
+
+  /* Gradients - the candy pink→green spectrum, stop for stop with iOS
+     (LinearGradient.boykAccent). Primary CTAs use the logo gradient so every
+     button matches the wordmark. Dark-first: bright stops live here; light
+     theme deepens them below for white-text AA. */
+  --gradient-accent: var(--gradient-logo);
+  --gradient-brand: linear-gradient(135deg, #db2777 0%, #be185d 100%);
+  --gradient-logo: linear-gradient(135deg, #ec4899 0%, #f472b6 50%, #34d399 100%);
+  --gradient-gold: linear-gradient(135deg, #f59e0b 0%, #fbbf24 50%, #f59e0b 100%);
+  --gradient-victory: linear-gradient(135deg, #ec4899 0%, #34d399 100%);
+  --gradient-surface: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, transparent 100%);
+  --gradient-glow: radial-gradient(ellipse at 50% 0%, var(--accent-glow), transparent 60%);
+  --gradient-card: linear-gradient(135deg, var(--accent-subtle) 0%, transparent 40%);
+
+  /* Card border gradients */
+  --gradient-border: linear-gradient(135deg, var(--accent) 0%, var(--gold) 100%);
+
+  /* Avatar gradients */
+  --avatar-user: linear-gradient(135deg, #db2777, #f472b6);
+  --avatar-company: linear-gradient(135deg, #ec4899, #34d399);
+  --avatar-brand: linear-gradient(135deg, #a855f7, #7c3aed);
+}
+
+/* === LIGHT MODE THEME === */
+[data-theme='light'] {
+  /* Backgrounds - warm cream/off-white */
+  --bg-dark: #faf9f7;
+  --bg-elevated: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f5f4f2;
+  --bg-overlay: rgba(250, 249, 247, 0.95);
+  --bg-inset: #efeeec;
+
+  /* Accent shifts two stops darker than iOS's light pink: #db2777 is 4.37:1 on
+     this cream background, just under AA; #be185d reads 6.04:1 on white and
+     5.74:1 on cream, and carries white text as a fill. */
+  --accent: #be185d;
+  --accent-light: #db2777;
+  --accent-lighter: #ec4899;
+  --accent-dark: #9d174d;
+  --accent-darker: #831843;
+  --accent-fill: #be185d;
+  --accent-glow: rgba(190, 24, 93, 0.25);
+  --accent-line: rgba(190, 24, 93, 0.25);
+
+  /* Functional colors darkened so they clear AA (4.5:1) as 12px text on
+     white cards and the cream page bg */
+  --success: #047857;
+  --success-glow: rgba(4, 120, 87, 0.2);
+  --danger: #be123c;
+  --danger-strong: #dc2626;
+  --danger-glow: rgba(190, 18, 60, 0.2);
+  --info: #0e7490;
+  --info-glow: rgba(14, 116, 144, 0.2);
+  --warning: #b45309;
+
+  /* Pink resist accent — #ec4899 was 3.5:1 on white; pink-600 clears AA on cards */
+  --highlight: #db2777;
+  --highlight-glow: rgba(219, 39, 119, 0.2);
+
+  /* Gold — #fbbf24 is 1.7:1 on white; amber-700 keeps the warmth at 5.0:1.
+     Dark text no longer clears the darker gold, so badges flip to white. */
+  --gold: #b45309;
+  --gold-light: #d97706;
+  --gold-dark: #92400e;
+  --gold-glow: rgba(180, 83, 9, 0.2);
+  --text-on-gold: #ffffff;
+
+  /* Connection data colors — dark-theme values sit at 2.1-4.0:1 on white;
+     each drops one-two stops (same hue) so badge text clears AA */
+  --conn-owns: #15803d;
+  --conn-owned-by: #2563eb;
+  --conn-brands: #9333ea;
+  --conn-supplier: #b45309;
+  --conn-customers: #0e7490;
+
+  /* Confidence dots + threat ramp follow the darkened semantic colors */
+  --confidence-high: #047857;
+  --confidence-medium: #b45309;
+  --confidence-low: #be123c;
+  --threat-low: #047857;
+  --threat-mid: #b45309;
+  --threat-high: #be123c;
+
+  /* Text - warm darks. Muted clears 4.5:1 on every light surface (6.5:1 on
+     white, 5.6:1 on inset); faint takes the old muted gray — 4.8:1 on white,
+     4.6:1 on cream. On-accent flips to white: near-black over the darkened
+     accent was ~3.7:1, white reads 6.3:1. */
+  --text-primary: #18181b;
+  --text-secondary: #52525b;
+  --text-muted: #5d5d66;
+  --text-faint: #71717a;
+  --text-on-accent: #ffffff;
+
+  /* Borders */
+  --border: rgba(0, 0, 0, 0.08);
+  --border-hover: rgba(0, 0, 0, 0.15);
+  --border-strong: rgba(0, 0, 0, 0.22);
+  --border-accent: rgba(190, 24, 93, 0.4);
+  --border-gold: rgba(180, 83, 9, 0.35);
+  --input-bg: #f5f4f2;
+  /* Glass goes white-translucent (dark glass reads as a smudge on cream);
+     borders step up to 0.1 black so panel edges stay visible on white */
+  --glass-bg: rgba(255, 255, 255, 0.95);
+  --glass-border: rgba(0, 0, 0, 0.1);
+  --glass-card: rgba(255, 255, 255, 0.85);
+  --glass-card-border: rgba(0, 0, 0, 0.1);
+  --glass-input-bg: rgba(255, 255, 255, 0.9);
+  /* Dock stays dark on light theme too — same macOS-style mental model */
+  --dock-bg: rgba(18, 18, 26, 0.92);
+  --dock-icon: rgba(255, 255, 255, 0.7);
+
+  /* Shadows for light mode - softer, glows track the darkened accents */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.12);
+  --shadow-glow: 0 0 30px rgba(190, 24, 93, 0.15);
+  --shadow-glow-pink: 0 0 24px rgba(219, 39, 119, 0.15);
+  --shadow-gold: 0 0 20px rgba(180, 83, 9, 0.15);
+
+  /* Gradient adjustments for light — deepened logo tones (pink→green, iOS's
+     light boykAccent stops) so white button text clears AA on white
+     backgrounds: #9d174d / #be185d / #047857 are all ≥4.5:1 against white. */
+  --gradient-accent: linear-gradient(135deg, #9d174d 0%, #be185d 50%, #047857 100%);
+  --gradient-surface: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, transparent 100%);
+  --gradient-card: linear-gradient(135deg, rgba(190, 24, 93, 0.05) 0%, transparent 40%);
+  --accent-subtle: rgba(190, 24, 93, 0.08);
+  --gold-subtle: rgba(180, 83, 9, 0.08);
+  --highlight-subtle: rgba(219, 39, 119, 0.08);
+}
+
+/* === DENSITY VARIANTS === */
+
+[data-density='compact'] {
+  --space-0-5: 1px;
+  --space-1: 2px;
+  --space-1-5: 4px;
+  --space-2: 6px;
+  --space-2-5: 8px;
+  --space-3: 10px;
+  --space-3-5: 12px;
+  --space-4: 14px;
+  --space-5: 16px;
+  --space-6: 20px;
+  --space-8: 28px;
+  --space-9: 32px;
+  --space-10: 36px;
+  --space-12: 40px;
+
+  --text-2xs: 8px;
+  --text-xs: 9px;
+  --text-xs2: 10px;
+  --text-sm: 11px;
+  --text-base: 12px;
+  --text-md: 13px;
+  --text-lg: 14px;
+  --text-xl: 16px;
+  --text-2xl: 18px;
+  --text-3xl: 20px;
+  --text-4xl: 24px;
+  --text-5xl: 32px;
+}
+
+[data-density='spacious'] {
+  --space-0-5: 3px;
+  --space-1: 6px;
+  --space-1-5: 8px;
+  --space-2: 10px;
+  --space-2-5: 12px;
+  --space-3: 14px;
+  --space-3-5: 16px;
+  --space-4: 20px;
+  --space-5: 24px;
+  --space-6: 28px;
+  --space-8: 36px;
+  --space-9: 40px;
+  --space-10: 48px;
+  --space-12: 56px;
+
+  --text-2xs: 10px;
+  --text-xs: 11px;
+  --text-xs2: 12px;
+  --text-sm: 13px;
+  --text-base: 14px;
+  --text-md: 15px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 22px;
+  --text-3xl: 24px;
+  --text-4xl: 30px;
+  --text-5xl: 40px;
+}
+
+/* === BORDER STYLE VARIANTS === */
+
+[data-corners='sharp'] {
+  --radius-xs: 0;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+  --radius-card: 7px;
+  --radius-xl: 8px;
+  --radius-2xl: 10px;
+}
+
+[data-corners='pill'] {
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-card: 20px;
+  --radius-xl: 24px;
+  --radius-2xl: 28px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  min-height: 100dvh;
+  padding-bottom: 80px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--accent-subtle);
+  color: var(--text-primary);
+}
+
+/* Subtle texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+[data-theme='light'] body::before {
+  opacity: 0.015;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--space-5);
+}
+
+/* === TYPOGRAPHY === */
+
+.logo {
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  font-weight: var(--font-bold);
+  letter-spacing: var(--tracking-tight);
+  color: var(--accent);
+  text-shadow: 0 0 20px var(--accent-glow);
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  text-shadow:
+    0 0 30px var(--accent-glow),
+    0 0 50px var(--accent-glow);
+}
+
+.page-title {
+  font-family: var(--font-display);
+  font-size: var(--text-5xl);
+  font-weight: var(--font-bold);
+  letter-spacing: var(--tracking-tighter);
+  line-height: var(--leading-tight);
+  margin-bottom: var(--space-2);
+}
+
+.page-subtitle {
+  color: var(--text-muted);
+  font-size: var(--text-md);
+  margin-bottom: var(--space-6);
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  letter-spacing: var(--tracking-tight);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2-5);
+}
+
+.section-title::before {
+  content: '';
+  width: var(--space-1);
+  height: var(--space-5);
+  background: var(--gradient-accent);
+  border-radius: var(--radius-xs);
+}
+
+.subsection-label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs2);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-eyebrow);
+  color: var(--text-muted);
+  margin-bottom: var(--space-3);
+  font-weight: var(--font-medium);
+}
+
+/* Eyebrow / kicker label — mono stamp used across Boyk */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs2);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-eyebrow);
+  color: var(--text-muted);
+}
+
+/* Brand gradient text helper (logo wordmark, hero accents) */
+.brand-gradient {
+  background: var(--gradient-logo);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* === HEADER === */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-6);
+  padding-top: var(--space-4);
+}
+
+/* === BUTTONS === */
+
+.btn-primary {
+  background: var(--gradient-accent);
+  border: none;
+  border-radius: var(--radius-full);
+  color: var(--text-on-accent);
+  font-family: var(--font-heading);
+  font-size: var(--text-md);
+  font-weight: var(--font-bold);
+  letter-spacing: 0.01em;
+  padding: var(--space-3-5) var(--space-6);
+  cursor: pointer;
+  transition: all var(--dur-base) var(--ease-standard);
+  position: relative;
+  overflow: hidden;
+  box-shadow:
+    0 4px 20px var(--accent-glow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+  transition: left 0.5s ease;
+}
+
+.btn-primary:hover::before {
+  left: 100%;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 8px 30px var(--accent-glow),
+    0 0 60px var(--accent-glow);
+}
+
+.btn-primary:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px var(--accent-glow);
+}
+
+.btn-danger {
+  background: transparent;
+  color: var(--danger);
+  border: 1px solid var(--danger);
+  border-radius: var(--radius-full);
+  padding: var(--space-3) var(--space-5);
+  font-family: var(--font-heading);
+  font-size: var(--text-base);
+  font-weight: var(--font-bold);
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-danger:hover {
+  background: var(--danger-strong);
+  color: #fff;
+  border-color: var(--danger-strong);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--danger-glow);
+}
+
+.btn-secondary {
+  background: var(--glass-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-card-border);
+  border-radius: var(--radius-full);
+  padding: var(--space-2-5) var(--space-4);
+  font-size: var(--text-base);
+  font-weight: var(--font-bold);
+  font-family: var(--font-heading);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  border-color: var(--border-accent);
+  color: var(--text-primary);
+  background: var(--accent-subtle);
+}
+
+.btn-follow {
+  background: var(--gradient-accent);
+  color: var(--text-on-accent);
+  border: none;
+  border-radius: var(--radius-full);
+  padding: var(--space-2-5) var(--space-5);
+  font-size: var(--text-base);
+  font-weight: var(--font-bold);
+  font-family: var(--font-heading);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-follow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--accent-glow);
+}
+
+/* === FORM ELEMENTS === */
+
+.input-field {
+  width: 100%;
+  background: var(--glass-input-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-card-border);
+  border-radius: var(--radius-card);
+  padding: var(--space-3-5) var(--space-4);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-inset);
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow:
+    0 0 0 3px var(--accent-subtle),
+    var(--shadow-md);
+}
+
+.input-field::placeholder {
+  color: var(--text-muted);
+}
+
+textarea.input-field {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs2);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-eyebrow);
+  color: var(--accent-light);
+  margin-bottom: var(--space-2);
+  display: block;
+  font-weight: var(--font-medium);
+}
+
+[data-theme='light'] .form-label {
+  color: var(--accent-dark);
+}
+
+/* Search Input */
+.search-container {
+  position: relative;
+  margin-bottom: var(--space-2);
+}
+
+.search-input {
+  width: 100%;
+  background: var(--glass-input-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-card-border);
+  border-radius: var(--radius-card);
+  padding: var(--space-3-5) var(--space-4);
+  padding-left: var(--space-12);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-inset);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow:
+    0 0 0 3px var(--accent-subtle),
+    var(--shadow-md);
+}
+
+.search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-icon {
+  position: absolute;
+  left: var(--space-3-5);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: var(--text-xl);
+}
+
+/* === CARDS === */
+
+.card {
+  background: var(--glass-card);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-card-border);
+  border-radius: var(--radius-card);
+  padding: var(--space-4) var(--space-5);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-inset);
+}
+
+.card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-hover);
+}
+
+.card-clickable {
+  cursor: pointer;
+}
+
+.card-clickable:hover {
+  transform: translateY(-4px);
+  border-color: var(--border-accent);
+  box-shadow:
+    var(--shadow-md),
+    0 0 20px var(--accent-subtle);
+}
+
+/* Glassmorphism Card */
+.glass-card {
+  background: var(--glass-card);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-card-border);
+  border-radius: var(--radius-card);
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
+}
+
+/* === CARD HIERARCHY SYSTEM === */
+
+/* Primary cards: Hero elements with glowing brand top bar */
+.card-primary {
+  background: var(--gradient-card), var(--glass-bg);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-card);
+  box-shadow:
+    var(--shadow-md),
+    0 0 30px var(--accent-subtle);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Top accent line with glow */
+.card-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gradient-brand);
+  box-shadow: 0 0 18px var(--accent-glow);
+}
+
+/* Secondary cards: Campaign/boycott cards */
+.card-secondary {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-lg);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  box-shadow: var(--shadow-sm);
+}
+
+.card-secondary:hover {
+  transform: translateY(-4px) translateX(2px);
+  border-color: var(--border-accent);
+  box-shadow:
+    var(--shadow-lg),
+    0 0 30px var(--accent-subtle);
+}
+
+/* === BADGES === */
+
+.badge {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  padding: var(--space-1) var(--space-2-5);
+  border-radius: var(--radius-sm);
+  font-weight: var(--font-semibold);
+}
+
+/* === ANIMATIONS === */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Focus-visible ring for network graph branch buttons */
+.network-branch-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes glowPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 20px var(--accent-glow);
+  }
+  50% {
+    box-shadow:
+      0 0 35px var(--accent-glow),
+      0 0 50px var(--accent-glow);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.4s ease backwards;
+}
+
+/* === MODAL === */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg-overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-5);
+  z-index: 500;
+  animation: fadeIn 0.3s ease;
+}
+
+.modal {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur-heavy));
+  -webkit-backdrop-filter: blur(var(--glass-blur-heavy));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-2xl);
+  width: 100%;
+  max-width: 420px;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  box-shadow:
+    var(--shadow-lg),
+    0 0 60px var(--accent-subtle);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-5) var(--space-6);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+  z-index: 10;
+}
+
+.modal-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  letter-spacing: var(--tracking-tight);
+}
+
+.modal-body {
+  padding: var(--space-6);
+}
+
+.close-btn {
+  width: var(--space-9);
+  height: var(--space-9);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: var(--text-2xl);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.close-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-subtle);
+}
+
+/* === CHECKBOX === */
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  cursor: pointer;
+  padding: var(--space-2) 0;
+}
+
+.checkbox-item input {
+  display: none;
+}
+
+.checkbox-box {
+  width: var(--space-5);
+  height: var(--space-5);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.checkbox-item:hover .checkbox-box {
+  border-color: var(--accent);
+}
+
+.checkbox-item input:checked + .checkbox-box {
+  background: var(--accent-fill);
+  border-color: var(--accent);
+}
+
+.checkbox-item input:checked + .checkbox-box::after {
+  content: '\2713';
+  color: var(--text-on-accent);
+  font-size: var(--text-sm);
+  font-weight: bold;
+}
+
+.checkbox-label {
+  font-size: var(--text-md);
+  color: var(--text-secondary);
+}
+
+.checkbox-item:hover .checkbox-label {
+  color: var(--text-primary);
+}
+
+/* === RESULT CARDS === */
+
+.result-card {
+  padding: var(--space-8);
+  margin-bottom: var(--space-6);
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+  border-radius: var(--radius-card);
+  position: relative;
+  overflow: hidden;
+}
+
+.result-card.success {
+  background: linear-gradient(135deg, rgba(52, 211, 153, 0.08) 0%, transparent 50%), var(--bg-card);
+  border: 1px solid var(--success);
+  box-shadow:
+    0 0 40px var(--success-glow),
+    var(--shadow-lg);
+}
+
+.result-card.success::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--success);
+  box-shadow: 0 0 20px var(--success-glow);
+}
+
+.result-card.conflict {
+  background:
+    linear-gradient(135deg, rgba(251, 113, 133, 0.08) 0%, transparent 50%), var(--bg-card);
+  border: 1px solid var(--danger);
+  box-shadow:
+    0 0 40px var(--danger-glow),
+    var(--shadow-lg);
+}
+
+.result-card.conflict::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--danger);
+  box-shadow: 0 0 20px var(--danger-glow);
+}
+
+.result-icon {
+  font-size: 56px;
+  margin-bottom: var(--space-4);
+}
+
+.result-card.success .result-icon,
+.result-card.success .result-title {
+  color: var(--success);
+}
+
+.result-card.conflict .result-icon,
+.result-card.conflict .result-title {
+  color: var(--danger);
+}
+
+.result-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-3xl);
+  font-weight: var(--font-bold);
+  letter-spacing: var(--tracking-tight);
+  margin-bottom: var(--space-2);
+}
+
+.result-description {
+  color: var(--text-secondary);
+  font-size: var(--text-md);
+  line-height: var(--leading-relaxed);
+}
+
+/* === SPINNER === */
+
+.spinner {
+  width: var(--space-12);
+  height: var(--space-12);
+  border-radius: 50%;
+  /* Logo-gradient ring: a conic sweep of the brand colors (indigo→pink→green)
+     masked into a 3px ring and rotated. A border edge can't hold a gradient, so
+     this replaces the old solid-indigo border-top spinner — inline loaders now
+     match the branded logo loader. Scales with any inline width/height. */
+  background: conic-gradient(from 0deg, #ec4899, #f472b6, #34d399, #ec4899);
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 0);
+  mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 0);
+  margin: 0 auto var(--space-4);
+  animation: spin 1s linear infinite;
+}
+
+/* === SKELETON LOADING === */
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--bg-card) 0%,
+    var(--bg-card-hover) 50%,
+    var(--bg-card) 100%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s ease-in-out infinite;
+  border-radius: var(--radius-sm);
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.skeleton-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-lg);
+}
+
+.skeleton-text {
+  height: var(--space-4);
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-text-lg {
+  height: var(--space-6);
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-stat {
+  width: 60px;
+  height: var(--space-6);
+  border-radius: var(--radius-sm);
+}
+
+.skeleton-card {
+  height: 80px;
+  border-radius: var(--radius-lg);
+}
+
+/* === SCROLLBAR === */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-elevated);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-line);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* === UTILITY === */
+
+.hidden {
+  display: none;
+}
+
+/* Focus visible for keyboard navigation */
+*:focus-visible {
+  /* Outline (not box-shadow): inline boxShadow styles on pills/CTAs would
+     silently erase a shadow-based ring. Outline follows border-radius in
+     all modern browsers and cannot be overridden by element shadows. */
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+/* Touch action optimization for mobile */
+* {
+  touch-action: manipulation;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
