@@ -9,7 +9,7 @@
     "dev": "node --watch index.js"
   },
   "dependencies": {
-    "@sentry/node": "^10.43.0",
+    "@sentry/node": "^11.11.0",
     "compression": "^1.8.1",
     "cors": "^2.8.5",
     "express": "^5.2.1",
